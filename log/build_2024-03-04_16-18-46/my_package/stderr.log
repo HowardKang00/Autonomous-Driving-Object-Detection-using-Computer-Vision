@@ -1,0 +1,8 @@
+CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+  ament_cmake_symlink_install_programs() can't find
+  '/Users/howardkang/auto_car/src/my_package/scripts/yolov8_ros2_pt.py'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:374 (ament_cmake_symlink_install_programs)
+  cmake_install.cmake:41 (include)
+
+

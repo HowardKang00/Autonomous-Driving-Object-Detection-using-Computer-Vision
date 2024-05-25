@@ -1,0 +1,24 @@
+[0.048s] Invoking command in '/Users/howardkang/auto_car/build/yolobot_algo': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/yolobot_algo -- -j8 -l8
+[0.183s] [ 10%] Built target yolobot_algo__rosidl_generator_c
+[0.186s] [ 10%] Built target ament_cmake_python_symlink_yolobot_algo
+[0.190s] [ 12%] Built target yolobot_algo__cpp
+[0.286s] [ 23%] Built target yolobot_algo__rosidl_typesupport_c
+[0.319s] [ 33%] Built target yolobot_algo__rosidl_typesupport_introspection_c
+[0.320s] [ 43%] Built target yolobot_algo__rosidl_typesupport_cpp
+[0.336s] [ 53%] Built target yolobot_algo__rosidl_typesupport_fastrtps_cpp
+[0.342s] [ 64%] Built target yolobot_algo__rosidl_typesupport_fastrtps_c
+[0.342s] [ 74%] Built target yolobot_algo__rosidl_typesupport_introspection_cpp
+[0.407s] [ 74%] Built target yolobot_algo
+[0.447s] [ 76%] Built target yolobot_algo__py
+[0.490s] [ 84%] Built target yolobot_algo__rosidl_generator_py
+[0.542s] [ 89%] Built target yolobot_algo__rosidl_typesupport_fastrtps_c__pyext
+[0.555s] [100%] Built target yolobot_algo__rosidl_typesupport_introspection_c__pyext
+[0.555s] [100%] Built target yolobot_algo__rosidl_typesupport_c__pyext
+[0.931s] running egg_info
+[0.998s] writing yolobot_algo.egg-info/PKG-INFO
+[1.066s] writing dependency_links to yolobot_algo.egg-info/dependency_links.txt
+[1.371s] writing top-level names to yolobot_algo.egg-info/top_level.txt
+[1.457s] reading manifest file 'yolobot_algo.egg-info/SOURCES.txt'
+[1.458s] writing manifest file 'yolobot_algo.egg-info/SOURCES.txt'
+[1.495s] [100%] Built target ament_cmake_python_build_yolobot_algo_egg
+[1.511s] Invoked command in '/Users/howardkang/auto_car/build/yolobot_algo' returned '0': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/yolobot_algo -- -j8 -l8

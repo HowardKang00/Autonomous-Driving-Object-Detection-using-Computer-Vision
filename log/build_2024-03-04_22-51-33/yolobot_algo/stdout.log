@@ -1,0 +1,22 @@
+[ 10%] Built target yolobot_algo__rosidl_generator_c
+[ 10%] Built target ament_cmake_python_symlink_yolobot_algo
+[ 12%] Built target yolobot_algo__cpp
+[ 23%] Built target yolobot_algo__rosidl_typesupport_c
+[ 33%] Built target yolobot_algo__rosidl_typesupport_introspection_c
+[ 43%] Built target yolobot_algo__rosidl_typesupport_cpp
+[ 53%] Built target yolobot_algo__rosidl_typesupport_fastrtps_cpp
+[ 64%] Built target yolobot_algo__rosidl_typesupport_fastrtps_c
+[ 74%] Built target yolobot_algo__rosidl_typesupport_introspection_cpp
+[ 74%] Built target yolobot_algo
+[ 76%] Built target yolobot_algo__py
+[ 84%] Built target yolobot_algo__rosidl_generator_py
+[ 89%] Built target yolobot_algo__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target yolobot_algo__rosidl_typesupport_introspection_c__pyext
+[100%] Built target yolobot_algo__rosidl_typesupport_c__pyext
+running egg_info
+writing yolobot_algo.egg-info/PKG-INFO
+writing dependency_links to yolobot_algo.egg-info/dependency_links.txt
+writing top-level names to yolobot_algo.egg-info/top_level.txt
+reading manifest file 'yolobot_algo.egg-info/SOURCES.txt'
+writing manifest file 'yolobot_algo.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_yolobot_algo_egg

@@ -1,0 +1,1 @@
+/Users/howardkang/auto_car/build/yolobot_algo/ament_cmake_environment_hooks/local_setup.sh

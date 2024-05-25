@@ -1,0 +1,53 @@
+[0.042s] Invoking command in '/Users/howardkang/auto_car/build/urdf_example': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake /Users/howardkang/auto_car/src/urdf_example-main -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/Users/howardkang/auto_car/install/urdf_example
+[1.952s] -- The C compiler identification is Clang 16.0.1
+[2.038s] -- The CXX compiler identification is Clang 16.0.1
+[2.048s] -- Detecting C compiler ABI info
+[2.181s] -- Detecting C compiler ABI info - done
+[2.184s] -- Check for working C compiler: /Users/howardkang/miniconda3/envs/ros2/bin/arm64-apple-darwin20.0.0-clang - skipped
+[2.185s] -- Detecting C compile features
+[2.185s] -- Detecting C compile features - done
+[2.189s] -- Detecting CXX compiler ABI info
+[2.316s] -- Detecting CXX compiler ABI info - done
+[2.320s] -- Check for working CXX compiler: /Users/howardkang/miniconda3/envs/ros2/bin/arm64-apple-darwin20.0.0-clang++ - skipped
+[2.320s] -- Detecting CXX compile features
+[2.320s] -- Detecting CXX compile features - done
+[2.342s] -- Found ament_cmake: 1.3.3 (/Users/howardkang/miniconda3/envs/ros2/share/ament_cmake/cmake)
+[3.023s] -- Found Python3: /opt/homebrew/Frameworks/Python.framework/Versions/3.12/bin/python3.12 (found version "3.12.1") found components: Interpreter 
+[3.124s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.262s] -- Found ament_lint_auto: 0.12.5 (/Users/howardkang/miniconda3/envs/ros2/share/ament_lint_auto/cmake)
+[3.412s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.415s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.416s] -- Added test 'lint_cmake' to check CMake code style
+[3.417s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.419s] -- Added test 'xmllint' to check XML markup files
+[3.421s] -- Configuring done (2.7s)
+[3.431s] -- Generating done (0.0s)
+[3.433s] -- Build files have been written to: /Users/howardkang/auto_car/build/urdf_example
+[3.435s] Invoked command in '/Users/howardkang/auto_car/build/urdf_example' returned '0': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake /Users/howardkang/auto_car/src/urdf_example-main -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/Users/howardkang/auto_car/install/urdf_example
+[3.438s] Invoking command in '/Users/howardkang/auto_car/build/urdf_example': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/urdf_example -- -j8 -l8
+[3.481s] Invoked command in '/Users/howardkang/auto_car/build/urdf_example' returned '0': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/urdf_example -- -j8 -l8
+[3.517s] Invoking command in '/Users/howardkang/auto_car/build/urdf_example': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --install /Users/howardkang/auto_car/build/urdf_example
+[3.525s] -- Install configuration: ""
+[3.526s] -- Execute custom install script
+[3.526s] -- Symlinking: /Users/howardkang/auto_car/install/urdf_example/share/urdf_example/description/example_gazebo.xacro
+[3.535s] -- Symlinking: /Users/howardkang/auto_car/install/urdf_example/share/urdf_example/description/example_include.xacro
+[3.545s] -- Symlinking: /Users/howardkang/auto_car/install/urdf_example/share/urdf_example/description/example_robot.urdf.xacro
+[3.554s] -- Symlinking: /Users/howardkang/auto_car/install/urdf_example/share/urdf_example/launch/rsp.launch.py
+[3.563s] -- Symlinking: /Users/howardkang/auto_car/install/urdf_example/share/urdf_example/launch/rsp_sim.launch.py
+[3.572s] -- Symlinking: /Users/howardkang/auto_car/install/urdf_example/share/urdf_example/worlds/test_world.world
+[3.581s] -- Symlinking: /Users/howardkang/auto_car/install/urdf_example/share/ament_index/resource_index/package_run_dependencies/urdf_example
+[3.591s] -- Symlinking: /Users/howardkang/auto_car/install/urdf_example/share/ament_index/resource_index/parent_prefix_path/urdf_example
+[3.600s] -- Symlinking: /Users/howardkang/auto_car/install/urdf_example/share/urdf_example/environment/ament_prefix_path.sh
+[3.610s] -- Symlinking: /Users/howardkang/auto_car/install/urdf_example/share/urdf_example/environment/ament_prefix_path.dsv
+[3.620s] -- Symlinking: /Users/howardkang/auto_car/install/urdf_example/share/urdf_example/environment/path.sh
+[3.631s] -- Symlinking: /Users/howardkang/auto_car/install/urdf_example/share/urdf_example/environment/path.dsv
+[3.640s] -- Symlinking: /Users/howardkang/auto_car/install/urdf_example/share/urdf_example/local_setup.bash
+[3.650s] -- Symlinking: /Users/howardkang/auto_car/install/urdf_example/share/urdf_example/local_setup.sh
+[3.661s] -- Symlinking: /Users/howardkang/auto_car/install/urdf_example/share/urdf_example/local_setup.zsh
+[3.671s] -- Symlinking: /Users/howardkang/auto_car/install/urdf_example/share/urdf_example/local_setup.dsv
+[3.682s] -- Symlinking: /Users/howardkang/auto_car/install/urdf_example/share/urdf_example/package.dsv
+[3.692s] -- Symlinking: /Users/howardkang/auto_car/install/urdf_example/share/ament_index/resource_index/packages/urdf_example
+[3.702s] -- Symlinking: /Users/howardkang/auto_car/install/urdf_example/share/urdf_example/cmake/urdf_exampleConfig.cmake
+[3.711s] -- Symlinking: /Users/howardkang/auto_car/install/urdf_example/share/urdf_example/cmake/urdf_exampleConfig-version.cmake
+[3.721s] -- Symlinking: /Users/howardkang/auto_car/install/urdf_example/share/urdf_example/package.xml
+[3.731s] Invoked command in '/Users/howardkang/auto_car/build/urdf_example' returned '0': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --install /Users/howardkang/auto_car/build/urdf_example

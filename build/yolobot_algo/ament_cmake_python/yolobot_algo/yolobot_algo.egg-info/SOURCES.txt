@@ -1,0 +1,9 @@
+setup.py
+yolobot_algo/__init__.py
+yolobot_algo.egg-info/PKG-INFO
+yolobot_algo.egg-info/SOURCES.txt
+yolobot_algo.egg-info/dependency_links.txt
+yolobot_algo.egg-info/top_level.txt
+yolobot_algo/msg/__init__.py
+yolobot_algo/msg/_inference_result.py
+yolobot_algo/msg/_yolov8_inference.py

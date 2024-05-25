@@ -1,0 +1,169 @@
+[0.046s] Invoking command in '/Users/howardkang/auto_car/build/yolov8_interface': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/yolov8_interface -- -j8 -l8
+[0.123s] [  2%] Built target yolov8_interface__cpp
+[0.128s] [ 12%] Built target yolov8_interface__rosidl_generator_c
+[0.140s] [ 12%] Built target ament_cmake_python_copy_yolov8_interface
+[0.180s] [ 23%] Built target yolov8_interface__rosidl_typesupport_introspection_c
+[0.185s] [ 33%] Built target yolov8_interface__rosidl_typesupport_c
+[0.202s] [ 43%] Built target yolov8_interface__rosidl_typesupport_cpp
+[0.202s] [ 61%] Built target yolov8_interface__rosidl_typesupport_introspection_cpp
+[0.203s] [ 64%] Built target yolov8_interface__rosidl_typesupport_fastrtps_cpp
+[0.205s] [ 74%] Built target yolov8_interface__rosidl_typesupport_fastrtps_c
+[0.232s] [ 74%] Built target yolov8_interface
+[0.261s] [ 76%] Built target yolov8_interface__py
+[0.295s] [ 84%] Built target yolov8_interface__rosidl_generator_py
+[0.333s] [ 97%] Built target yolov8_interface__rosidl_typesupport_c__pyext
+[0.333s] [ 97%] Built target yolov8_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.333s] [100%] Built target yolov8_interface__rosidl_typesupport_introspection_c__pyext
+[0.527s] running egg_info
+[0.561s] writing yolov8_interface.egg-info/PKG-INFO
+[0.587s] writing dependency_links to yolov8_interface.egg-info/dependency_links.txt
+[0.748s] writing top-level names to yolov8_interface.egg-info/top_level.txt
+[0.801s] reading manifest file 'yolov8_interface.egg-info/SOURCES.txt'
+[0.802s] writing manifest file 'yolov8_interface.egg-info/SOURCES.txt'
+[0.830s] [100%] Built target ament_cmake_python_build_yolov8_interface_egg
+[0.843s] Invoked command in '/Users/howardkang/auto_car/build/yolov8_interface' returned '0': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/yolov8_interface -- -j8 -l8
+[1.085s] Invoking command in '/Users/howardkang/auto_car/build/yolov8_interface': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --install /Users/howardkang/auto_car/build/yolov8_interface
+[1.094s] -- Install configuration: ""
+[1.094s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/ament_index/resource_index/rosidl_interfaces/yolov8_interface
+[1.094s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface
+[1.094s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg
+[1.094s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/inference_result.h
+[1.094s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/rosidl_generator_c__visibility_control.h
+[1.094s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/yolov8_inference.h
+[1.095s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail
+[1.095s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__struct.h
+[1.095s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__struct.h
+[1.095s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__functions.h
+[1.095s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__functions.c
+[1.095s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__type_support.h
+[1.095s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__type_support.h
+[1.095s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__functions.c
+[1.095s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__functions.h
+[1.095s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_generator_c.dylib
+[1.095s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface
+[1.095s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg
+[1.095s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail
+[1.095s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_c.h
+[1.095s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h
+[1.095s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.095s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_typesupport_fastrtps_c.dylib
+[1.097s] error: /Users/howardkang/miniconda3/envs/ros2/bin/install_name_tool: no LC_RPATH load command with path: /Users/howardkang/auto_car/build/yolov8_interface found in: /Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_typesupport_fastrtps_c.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/howardkang/auto_car/build/yolov8_interface"
+[1.097s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface
+[1.097s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg
+[1.097s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/inference_result.hpp
+[1.097s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/yolov8_inference.hpp
+[1.097s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail
+[1.097s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__struct.hpp
+[1.097s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__builder.hpp
+[1.097s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__struct.hpp
+[1.097s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__traits.hpp
+[1.097s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__builder.hpp
+[1.098s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__traits.hpp
+[1.098s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface
+[1.098s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg
+[1.098s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.098s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail
+[1.098s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp
+[1.098s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__rosidl_typesupport_fastrtps_cpp.hpp
+[1.098s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/dds_fastrtps
+[1.098s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_typesupport_fastrtps_cpp.dylib
+[1.098s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface
+[1.098s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg
+[1.098s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail
+[1.098s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__rosidl_typesupport_introspection_c.h
+[1.098s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__type_support.c
+[1.098s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__rosidl_typesupport_introspection_c.h
+[1.098s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__type_support.c
+[1.098s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.098s] -- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_typesupport_introspection_c.dylib
+[1.101s] [cctools-port]: generating fake signature for '/Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_typesupport_introspection_c.dylib'
+[1.108s] -- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_typesupport_c.dylib
+[1.110s] [cctools-port]: generating fake signature for '/Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_typesupport_c.dylib'
+[1.117s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface
+[1.117s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg
+[1.118s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail
+[1.118s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__type_support.cpp
+[1.118s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__type_support.cpp
+[1.118s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__rosidl_typesupport_introspection_cpp.hpp
+[1.118s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp
+[1.118s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_typesupport_introspection_cpp.dylib
+[1.118s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_typesupport_cpp.dylib
+[1.118s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/environment/pythonpath.sh
+[1.118s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/environment/pythonpath.dsv
+[1.118s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface-0.0.0-py3.10.egg-info
+[1.118s] -- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[1.118s] -- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.118s] -- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface-0.0.0-py3.10.egg-info/top_level.txt
+[1.119s] -- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.119s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface
+[1.119s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/yolov8_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-darwin.so
+[1.119s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/_yolov8_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.119s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/msg
+[1.119s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/msg/_inference_result_s.c
+[1.119s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/msg/__init__.py
+[1.119s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/msg/_inference_result.py
+[1.119s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/msg/_yolov8_inference_s.c
+[1.120s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/msg/_yolov8_inference.py
+[1.120s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/yolov8_interface_s__rosidl_typesupport_c.cpython-310-darwin.so
+[1.120s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/__init__.py
+[1.120s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/_yolov8_interface_s.ep.rosidl_typesupport_introspection_c.c
+[1.120s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/yolov8_interface_s__rosidl_typesupport_introspection_c.cpython-310-darwin.so
+[1.120s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/libyolov8_interface__rosidl_generator_py.dylib
+[1.120s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/_yolov8_interface_s.ep.rosidl_typesupport_c.c
+[1.141s] Listing 'lib/python3.10/site-packages/yolov8_interface'...
+[1.141s] Can't list 'lib/python3.10/site-packages/yolov8_interface'
+[1.144s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/yolov8_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-darwin.so
+[1.146s] error: /Users/howardkang/miniconda3/envs/ros2/bin/install_name_tool: no LC_RPATH load command with path: /Users/howardkang/auto_car/build/yolov8_interface/rosidl_generator_py/yolov8_interface found in: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/yolov8_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-darwin.so (for architecture arm64), required for specified option "-delete_rpath /Users/howardkang/auto_car/build/yolov8_interface/rosidl_generator_py/yolov8_interface"
+[1.146s] error: /Users/howardkang/miniconda3/envs/ros2/bin/install_name_tool: no LC_RPATH load command with path: /Users/howardkang/auto_car/build/yolov8_interface found in: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/yolov8_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-darwin.so (for architecture arm64), required for specified option "-delete_rpath /Users/howardkang/auto_car/build/yolov8_interface"
+[1.146s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/yolov8_interface_s__rosidl_typesupport_introspection_c.cpython-310-darwin.so
+[1.147s] error: /Users/howardkang/miniconda3/envs/ros2/bin/install_name_tool: no LC_RPATH load command with path: /Users/howardkang/auto_car/build/yolov8_interface/rosidl_generator_py/yolov8_interface found in: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/yolov8_interface_s__rosidl_typesupport_introspection_c.cpython-310-darwin.so (for architecture arm64), required for specified option "-delete_rpath /Users/howardkang/auto_car/build/yolov8_interface/rosidl_generator_py/yolov8_interface"
+[1.147s] error: /Users/howardkang/miniconda3/envs/ros2/bin/install_name_tool: no LC_RPATH load command with path: /Users/howardkang/auto_car/build/yolov8_interface found in: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/yolov8_interface_s__rosidl_typesupport_introspection_c.cpython-310-darwin.so (for architecture arm64), required for specified option "-delete_rpath /Users/howardkang/auto_car/build/yolov8_interface"
+[1.148s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/yolov8_interface_s__rosidl_typesupport_c.cpython-310-darwin.so
+[1.149s] error: /Users/howardkang/miniconda3/envs/ros2/bin/install_name_tool: no LC_RPATH load command with path: /Users/howardkang/auto_car/build/yolov8_interface/rosidl_generator_py/yolov8_interface found in: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/yolov8_interface_s__rosidl_typesupport_c.cpython-310-darwin.so (for architecture arm64), required for specified option "-delete_rpath /Users/howardkang/auto_car/build/yolov8_interface/rosidl_generator_py/yolov8_interface"
+[1.149s] error: /Users/howardkang/miniconda3/envs/ros2/bin/install_name_tool: no LC_RPATH load command with path: /Users/howardkang/auto_car/build/yolov8_interface found in: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/yolov8_interface_s__rosidl_typesupport_c.cpython-310-darwin.so (for architecture arm64), required for specified option "-delete_rpath /Users/howardkang/auto_car/build/yolov8_interface"
+[1.149s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_generator_py.dylib
+[1.151s] error: /Users/howardkang/miniconda3/envs/ros2/bin/install_name_tool: no LC_RPATH load command with path: /Users/howardkang/auto_car/build/yolov8_interface found in: /Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_generator_py.dylib (for architecture arm64), required for specified option "-delete_rpath /Users/howardkang/auto_car/build/yolov8_interface"
+[1.151s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/msg/InferenceResult.idl
+[1.151s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/msg/Yolov8Inference.idl
+[1.151s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/msg/InferenceResult.msg
+[1.151s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/msg/Yolov8Inference.msg
+[1.151s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/ament_index/resource_index/package_run_dependencies/yolov8_interface
+[1.151s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/ament_index/resource_index/parent_prefix_path/yolov8_interface
+[1.151s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/environment/ament_prefix_path.sh
+[1.151s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/environment/ament_prefix_path.dsv
+[1.151s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/environment/path.sh
+[1.151s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/environment/path.dsv
+[1.152s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/local_setup.bash
+[1.152s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/local_setup.sh
+[1.152s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/local_setup.zsh
+[1.152s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/local_setup.dsv
+[1.152s] -- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/package.dsv
+[1.152s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/ament_index/resource_index/packages/yolov8_interface
+[1.152s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/export_yolov8_interface__rosidl_generator_cExport.cmake
+[1.152s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/export_yolov8_interface__rosidl_generator_cExport-noconfig.cmake
+[1.152s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/export_yolov8_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[1.152s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/export_yolov8_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.152s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/export_yolov8_interface__rosidl_generator_cppExport.cmake
+[1.152s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/export_yolov8_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.153s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/export_yolov8_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.153s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/yolov8_interface__rosidl_typesupport_introspection_cExport.cmake
+[1.153s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/yolov8_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.153s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/yolov8_interface__rosidl_typesupport_cExport.cmake
+[1.153s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/yolov8_interface__rosidl_typesupport_cExport-noconfig.cmake
+[1.153s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/yolov8_interface__rosidl_typesupport_introspection_cppExport.cmake
+[1.153s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/yolov8_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.153s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/yolov8_interface__rosidl_typesupport_cppExport.cmake
+[1.153s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/yolov8_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[1.154s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/export_yolov8_interface__rosidl_generator_pyExport.cmake
+[1.154s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/export_yolov8_interface__rosidl_generator_pyExport-noconfig.cmake
+[1.154s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/rosidl_cmake-extras.cmake
+[1.154s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.154s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.154s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[1.154s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/ament_cmake_export_targets-extras.cmake
+[1.154s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.154s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.154s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/yolov8_interfaceConfig.cmake
+[1.154s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/yolov8_interfaceConfig-version.cmake
+[1.154s] -- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/package.xml
+[1.155s] Invoked command in '/Users/howardkang/auto_car/build/yolov8_interface' returned '0': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --install /Users/howardkang/auto_car/build/yolov8_interface

@@ -1,0 +1,18 @@
+ld: warning: -pie being ignored. It is only used when linking a main executable
+ld: warning: -pie being ignored. It is only used when linking a main executable
+ld: warning: -pie being ignored. It is only used when linking a main executable
+ld: warning: -pie being ignored. It is only used when linking a main executable
+ld: warning: -pie being ignored. It is only used when linking a main executable
+ld: warning: -pie being ignored. It is only used when linking a main executable
+ld: warning: -pie being ignored. It is only used when linking a main executable
+ld: warning: -pie being ignored. It is only used when linking a main executable
+ld: warning: ld: warning: ld: warning: -pie being ignored. It is only used when linking a main executable-pie being ignored. It is only used when linking a main executable
+
+-pie being ignored. It is only used when linking a main executable
+[cctools-port]: generating fake signature for '/Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_typesupport_fastrtps_c.dylib'
+[cctools-port]: generating fake signature for '/Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_typesupport_introspection_c.dylib'
+[cctools-port]: generating fake signature for '/Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_typesupport_c.dylib'
+[cctools-port]: generating fake signature for '/Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/yolov8_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-darwin.so'
+[cctools-port]: generating fake signature for '/Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/yolov8_interface_s__rosidl_typesupport_introspection_c.cpython-310-darwin.so'
+[cctools-port]: generating fake signature for '/Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/yolov8_interface_s__rosidl_typesupport_c.cpython-310-darwin.so'
+[cctools-port]: generating fake signature for '/Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_generator_py.dylib'

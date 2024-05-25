@@ -1,0 +1,145 @@
+[0.079s] Invoking command in '/Users/howardkang/auto_car/build/rplidar_ros': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/rplidar_ros -- -j8 -l8
+[0.346s] [ 11%] Building CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_serial.cpp.o
+[0.351s] [ 22%] Building CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_socket.cpp.o
+[0.353s] [ 33%] Building CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/rplidar_driver.cpp.o
+[0.354s] [ 44%] Building CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/hal/thread.cpp.o
+[1.251s] In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/hal/thread.cpp:35:
+[1.251s] In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/src/sdkcommon.h:48:
+[1.251s] In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar.hIn file included from :/Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/rplidar_driver.cpp39::
+[1.251s] 35/Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar_protocol.h:
+[1.252s] :In file included from 59/Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/src/sdkcommon.h:48:
+[1.252s] In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar.h:39:
+[1.252s] :14: /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar_protocol.hwarning: :zero size arrays are an extension [-Wzero-length-array]59
+[1.252s] :14: warning: zero size arrays are an extension [-Wzero-length-array]
+[1.253s]     _u8 data[0];    _u8 data[0];
+[1.253s]              ^
+[1.253s] 
+[1.253s]              ^
+[1.253s] In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/hal/thread.cpp:35:
+[1.253s] In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/src/sdkcommon.h:48:
+[1.253s] In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar.h:40:
+[1.254s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar_cmd.h:260:18: warning: zero size arrays are an extension [-Wzero-length-array]
+[1.254s]     _u8  payload[0];
+[1.254s]                  ^
+[1.254s] In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/rplidar_driver.cpp:35:
+[1.254s] In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/src/sdkcommon.h:48:
+[1.254s] In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar.h:40:
+[1.254s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar_cmd.h:260:18: warning: zero size arrays are an extension [-Wzero-length-array]
+[1.254s]     _u8  payload[0];
+[1.254s]                  ^
+[1.256s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/arch/linux/net_serial.cpp:55:10: fatal error: 'asm/ioctls.h' file not found
+[1.257s] #include <asm/ioctls.h>
+[1.257s]          ^~~~~~~~~~~~~~
+[1.258s] In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/hal/thread.cpp:43:
+[1.258s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/src/arch/linux/thread.hpp:95:19: error: no member named '__sched_priority' in 'sched_param'; did you mean 'sched_priority'?
+[1.258s]     current_param.__sched_priority = current_policy;
+[1.258s]                   ^~~~~~~~~~~~~~~~
+[1.258s]                   sched_priority
+[1.259s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h:35:26: note: 'sched_priority' declared here
+[1.259s] struct sched_param { int sched_priority;  char __opaque[__SCHED_PARAM_SIZE__]; };
+[1.259s]                          ^
+[1.259s] In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/hal/thread.cpp:43:
+[1.260s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/src/arch/linux/thread.hpp:118:23: error: no member named '__sched_priority' in 'sched_param'; did you mean 'sched_priority'?
+[1.260s]     if (current_param.__sched_priority ==(pthread_priority_max ))
+[1.260s]                       ^~~~~~~~~~~~~~~~
+[1.261s]                       sched_priority
+[1.261s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h:35:26: note: 'sched_priority' declared here
+[1.261s] struct sched_param { int sched_priority;  char __opaque[__SCHED_PARAM_SIZE__]; };
+[1.261s]                          ^
+[1.261s] In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/hal/thread.cpp:43:
+[1.261s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/src/arch/linux/thread.hpp:122:23: error: no member named '__sched_priority' in 'sched_param'; did you mean 'sched_priority'?
+[1.261s]     if (current_param.__sched_priority >=(pthread_priority_max + pthread_priority_min)/2)
+[1.262s]                       ^~~~~~~~~~~~~~~~
+[1.262s]                       sched_priority
+[1.262s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h:35:26: note: 'sched_priority' declared here
+[1.262s] struct sched_param { int sched_priority;  char __opaque[__SCHED_PARAM_SIZE__]; };
+[1.262s]                          ^
+[1.262s] In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/hal/thread.cpp:43:
+[1.262s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/src/arch/linux/thread.hpp:129:37: warning: unused parameter 'timeout' [-Wunused-parameter]
+[1.262s] u_result Thread::join(unsigned long timeout)
+[1.262s]                                     ^
+[1.262s] In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/arch/linux/net_socket.cpp:10:
+[1.262s] In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/src/sdkcommon.h:48:
+[1.262s] In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar.h:39:
+[1.263s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar_protocol.h:59:14: warning: zero size arrays are an extension [-Wzero-length-array]
+[1.263s]     _u8 data[0];
+[1.263s]              ^
+[1.263s] In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/arch/linux/net_socket.cpp:10:
+[1.263s] In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/src/sdkcommon.h:48:
+[1.263s] In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar.h:40:
+[1.263s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar_cmd.h:260:18: warning: zero size arrays are an extension [-Wzero-length-array]
+[1.263s]     _u8  payload[0];
+[1.263s]                  ^
+[1.263s] 1 error generated.
+[1.264s] In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/rplidar_driver.cpp:41:
+[1.264s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/src/hal/locker.h:102:21: error: use of undeclared identifier 'pthread_mutex_timedlock'
+[1.264s]             switch (pthread_mutex_timedlock(&_lock,&wait_time))
+[1.265s]                     ^
+[1.271s] make[2]: *** [CMakeFiles/rplidar_composition_node.dir/build.make:90: CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_serial.cpp.o] Error 1
+[1.272s] make[2]: *** Waiting for unfinished jobs....
+[1.272s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/rplidar_driver.cpp:121:46: warning: unused parameter 'timeout' [-Wunused-parameter]
+[1.272s] u_result RPlidarDriverImplCommon::reset(_u32 timeout)
+[1.272s]                                              ^
+[1.273s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/rplidar_driver.cpp:275:75: warning: unused parameter 'timeout' [-Wunused-parameter]
+[1.273s] u_result RPlidarDriverImplCommon::checkIfTofLidar(bool & isTofLidar, _u32 timeout)
+[1.273s]                                                                           ^
+[1.274s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/rplidar_driver.cpp:671:16: warning: variable 'last_angleInc_q16' set but not used [-Wunused-but-set-variable]
+[1.274s]     static int last_angleInc_q16 = 0;
+[1.275s]                ^
+[1.275s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/rplidar_driver.cpp:673:9: warning: unused variable 'syncBit_check_threshold' [-Wunused-variable]
+[1.276s]     int syncBit_check_threshold = (int)((5 << 16) / angleInc_q16) + 1;//find syncBit in 0~3 degree
+[1.276s]         ^
+[1.279s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/rplidar_driver.cpp:771:46: warning: unused variable 'last_scan_count' [-Wunused-variable]
+[1.280s]     size_t                                   last_scan_count = 0;
+[1.280s]                                              ^
+[1.280s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/rplidar_driver.cpp:850:17: warning: unused variable 'syncBit_check_threshold' [-Wunused-variable]
+[1.280s]             int syncBit_check_threshold = (int)((2 << 16) / angleInc_q16) + 1;//find syncBit in 0~1 degree
+[1.280s]                 ^
+[1.287s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/rplidar_driver.cpp:1256:21: warning: unused variable 'syncBit_check_threshold' [-Wunused-variable]
+[1.287s]                 int syncBit_check_threshold = (int)((3 << 16) / angleInc_q16)+1;//find syncBit in 0~1 degree
+[1.288s]                     ^
+[1.288s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/rplidar_driver.cpp:1238:32: warning: comparison of integers of different signs: 'int' and 'unsigned int' [-Wsign-compare]
+[1.288s]             if ((dist_predict1 == 0xFFFFFE00) || (dist_predict1 == 0x1FF)) {
+[1.288s]                  ~~~~~~~~~~~~~ ^  ~~~~~~~~~~
+[1.288s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/rplidar_driver.cpp:1246:32: warning: comparison of integers of different signs: 'int' and 'unsigned int' [-Wsign-compare]
+[1.288s]             if ((dist_predict2 == 0xFFFFFE00) || (dist_predict2 == 0x1FF)) {
+[1.289s]                  ~~~~~~~~~~~~~ ^  ~~~~~~~~~~
+[1.289s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/arch/linux/net_socket.cpp:438:17: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+[1.289s]         if (ans == (int)len) {
+[1.289s]             ~~~ ^  ~~~~~~~~
+[1.289s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/rplidar_driver.cpp:1484:105: warning: unused parameter 'timeoutInMs' [-Wunused-parameter]
+[1.289s] u_result RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<RplidarScanMode>& outModes, _u32 timeoutInMs)
+[1.289s]                                                                                                         ^
+[1.289s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/rplidar_driver.cpp:1581:83: warning: unused parameter 'options' [-Wunused-parameter]
+[1.289s] u_result RPlidarDriverImplCommon::startScan(bool force, bool useTypicalScan, _u32 options, RplidarScanMode* outUsedScanMode)
+[1.289s]                                                                                   ^
+[1.290s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/arch/linux/net_socket.cpp:726:24: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+[1.290s]             assert(ans == (int)len);
+[1.290s]                    ~~~ ^  ~~~~~~~~
+[1.290s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h:99:25: note: expanded from macro 'assert'
+[1.290s]     (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __ASSERT_FILE_NAME, __LINE__, #e) : (void)0)
+[1.290s]                         ^
+[1.290s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/rplidar_driver.cpp:1805:45: warning: unused parameter 'timeout' [-Wunused-parameter]
+[1.291s] u_result RPlidarDriverImplCommon::stop(_u32 timeout)
+[1.291s]                                             ^
+[1.291s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/rplidar_driver.cpp:2193:68: warning: unused parameter 'timeout' [-Wunused-parameter]
+[1.291s] u_result RPlidarDriverImplCommon::setLidarSpinSpeed(_u16 rpm, _u32 timeout)
+[1.291s]                                                                    ^
+[1.291s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/rplidar_driver.cpp:2270:83: warning: unused parameter 'flag' [-Wunused-parameter]
+[1.291s] u_result RPlidarDriverSerial::connect(const char * port_path, _u32 baudrate, _u32 flag)
+[1.291s]                                                                                   ^
+[1.291s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/rplidar_driver.cpp:2312:72: warning: unused parameter 'flag' [-Wunused-parameter]
+[1.291s] u_result RPlidarDriverTCP::connect(const char * ipStr, _u32 port, _u32 flag)
+[1.291s]                                                                        ^
+[1.291s] /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/arch/linux/net_socket.cpp:818:20: error: use of undeclared identifier 'AF_PACKET'
+[1.291s]             return AF_PACKET;
+[1.291s]                    ^
+[1.299s] 3 warnings and 3 errors generated.
+[1.303s] make[2]: *** [CMakeFiles/rplidar_composition_node.dir/build.make:132: CMakeFiles/rplidar_composition_node.dir/sdk/src/hal/thread.cpp.o] Error 1
+[1.325s] 4 warnings and 1 error generated.
+[1.327s] make[2]: *** [CMakeFiles/rplidar_composition_node.dir/build.make:104: CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_socket.cpp.o] Error 1
+[1.349s] 17 warnings and 1 error generated.
+[1.351s] make[2]: *** [CMakeFiles/rplidar_composition_node.dir/build.make:146: CMakeFiles/rplidar_composition_node.dir/sdk/src/rplidar_driver.cpp.o] Error 1
+[1.351s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/rplidar_composition_node.dir/all] Error 2
+[1.352s] make: *** [Makefile:146: all] Error 2
+[1.353s] Invoked command in '/Users/howardkang/auto_car/build/rplidar_ros' returned '2': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/rplidar_ros -- -j8 -l8

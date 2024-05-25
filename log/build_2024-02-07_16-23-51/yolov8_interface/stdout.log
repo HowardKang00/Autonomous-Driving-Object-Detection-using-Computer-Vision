@@ -1,0 +1,210 @@
+-- Found Python3: /Users/howardkang/miniconda3/envs/ros2/bin/python3.10 (found version "3.10.13") found components: Interpreter 
+-- Found std_msgs: 4.2.3 (/Users/howardkang/miniconda3/envs/ros2/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.2.0 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/Users/howardkang/miniconda3/envs/ros2/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/Users/howardkang/miniconda3/envs/ros2/share/python_cmake_module/cmake)
+-- Using PythonExtra_INCLUDE_DIRS: /Users/howardkang/miniconda3/envs/ros2/include/python3.10;/Users/howardkang/miniconda3/envs/ros2/include/python3.10
+-- Using PythonExtra_LIBRARIES: /Users/howardkang/miniconda3/envs/ros2/lib/libpython3.10.dylib
+-- Found Python3: /Users/howardkang/miniconda3/envs/ros2/bin/python3.10 (found version "3.10.13") found components: Development NumPy Interpreter Development.Module Development.Embed 
+-- Found ament_lint_auto: 0.12.5 (/Users/howardkang/miniconda3/envs/ros2/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.0s)
+-- Generating done (0.1s)
+-- Build files have been written to: /Users/howardkang/auto_car/build/yolov8_interface
+[  2%] Built target yolov8_interface__cpp
+[  5%] Building C object CMakeFiles/yolov8_interface__rosidl_generator_c.dir/rosidl_generator_c/yolov8_interface/msg/detail/inference_result__functions.c.o
+[  7%] Building C object CMakeFiles/yolov8_interface__rosidl_generator_c.dir/rosidl_generator_c/yolov8_interface/msg/detail/yolov8_inference__functions.c.o
+[  7%] Built target ament_cmake_python_copy_yolov8_interface
+[ 10%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_interface/msg/inference_result__type_support.cpp.o
+[ 12%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_interface/msg/detail/yolov8_inference__type_support.cpp.o
+[ 15%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_interface/msg/detail/dds_fastrtps/inference_result__type_support.cpp.o
+[ 17%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_interface/msg/yolov8_inference__type_support.cpp.o
+[ 20%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_interface/msg/detail/inference_result__type_support.cpp.o
+[ 23%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_interface/msg/detail/dds_fastrtps/yolov8_inference__type_support.cpp.o
+[ 25%] Linking C shared library libyolov8_interface__rosidl_generator_c.dylib
+running egg_info
+writing yolov8_interface.egg-info/PKG-INFO
+writing dependency_links to yolov8_interface.egg-info/dependency_links.txt
+[ 28%] Built target yolov8_interface__rosidl_generator_c
+[ 30%] Generating C type support for eProsima Fast-RTPS
+[ 33%] Generating C introspection for ROS interfaces
+[ 35%] Linking CXX shared library libyolov8_interface__rosidl_typesupport_cpp.dylib
+[ 38%] Generating C type support dispatch for ROS interfaces
+[ 41%] Linking CXX shared library libyolov8_interface__rosidl_typesupport_introspection_cpp.dylib
+writing top-level names to yolov8_interface.egg-info/top_level.txt
+[ 43%] Built target yolov8_interface__rosidl_typesupport_cpp
+[ 46%] Built target yolov8_interface__rosidl_typesupport_introspection_cpp
+reading manifest file 'yolov8_interface.egg-info/SOURCES.txt'
+writing manifest file 'yolov8_interface.egg-info/SOURCES.txt'
+[ 46%] Built target ament_cmake_python_build_yolov8_interface_egg
+[ 51%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_interface/msg/detail/yolov8_inference__type_support_c.cpp.o
+[ 51%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_interface/msg/detail/inference_result__type_support_c.cpp.o
+[ 53%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_interface/msg/yolov8_inference__type_support.cpp.o
+[ 56%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_interface/msg/inference_result__type_support.cpp.o
+[ 58%] Building C object CMakeFiles/yolov8_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_interface/msg/detail/yolov8_inference__type_support.c.o
+[ 61%] Building C object CMakeFiles/yolov8_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_interface/msg/detail/inference_result__type_support.c.o
+[ 64%] Linking CXX shared library libyolov8_interface__rosidl_typesupport_fastrtps_cpp.dylib
+[ 66%] Linking CXX shared library libyolov8_interface__rosidl_typesupport_c.dylib
+[ 69%] Linking C shared library libyolov8_interface__rosidl_typesupport_introspection_c.dylib
+[ 71%] Built target yolov8_interface__rosidl_typesupport_fastrtps_cpp
+[ 71%] Built target yolov8_interface__rosidl_typesupport_c
+[ 71%] Built target yolov8_interface__rosidl_typesupport_introspection_c
+[ 74%] Linking CXX shared library libyolov8_interface__rosidl_typesupport_fastrtps_c.dylib
+[ 74%] Built target yolov8_interface__rosidl_typesupport_fastrtps_c
+[ 74%] Built target yolov8_interface
+[ 76%] Generating Python code for ROS interfaces
+[ 76%] Built target yolov8_interface__py
+[ 82%] Building C object CMakeFiles/yolov8_interface__rosidl_generator_py.dir/rosidl_generator_py/yolov8_interface/msg/_inference_result_s.c.o
+[ 82%] Building C object CMakeFiles/yolov8_interface__rosidl_generator_py.dir/rosidl_generator_py/yolov8_interface/msg/_yolov8_inference_s.c.o
+[ 84%] Linking C shared library rosidl_generator_py/yolov8_interface/libyolov8_interface__rosidl_generator_py.dylib
+[ 84%] Built target yolov8_interface__rosidl_generator_py
+[ 92%] Building C object CMakeFiles/yolov8_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolov8_interface/_yolov8_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[ 92%] Building C object CMakeFiles/yolov8_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolov8_interface/_yolov8_interface_s.ep.rosidl_typesupport_introspection_c.c.o
+[ 92%] Building C object CMakeFiles/yolov8_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolov8_interface/_yolov8_interface_s.ep.rosidl_typesupport_c.c.o
+[100%] Linking C shared library rosidl_generator_py/yolov8_interface/yolov8_interface_s__rosidl_typesupport_introspection_c.cpython-310-darwin.so
+[100%] Linking C shared library rosidl_generator_py/yolov8_interface/yolov8_interface_s__rosidl_typesupport_c.cpython-310-darwin.so
+[100%] Linking C shared library rosidl_generator_py/yolov8_interface/yolov8_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-darwin.so
+[100%] Built target yolov8_interface__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target yolov8_interface__rosidl_typesupport_c__pyext
+[100%] Built target yolov8_interface__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/ament_index/resource_index/rosidl_interfaces/yolov8_interface
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/inference_result.h
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/yolov8_inference.h
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__struct.h
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__struct.h
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__functions.h
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__functions.c
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__type_support.h
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__type_support.h
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__functions.c
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__functions.h
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_generator_c.dylib
+-- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface
+-- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg
+-- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_c.h
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_typesupport_fastrtps_c.dylib
+-- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface
+-- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/inference_result.hpp
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/yolov8_inference.hpp
+-- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__struct.hpp
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__builder.hpp
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__struct.hpp
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__traits.hpp
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__builder.hpp
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__traits.hpp
+-- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface
+-- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/dds_fastrtps
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_typesupport_fastrtps_cpp.dylib
+-- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface
+-- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg
+-- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__rosidl_typesupport_introspection_c.h
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__type_support.c
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__rosidl_typesupport_introspection_c.h
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__type_support.c
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_typesupport_introspection_c.dylib
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_typesupport_c.dylib
+-- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface
+-- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg
+-- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__type_support.cpp
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__type_support.cpp
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/yolov8_inference__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/include/yolov8_interface/yolov8_interface/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_typesupport_introspection_cpp.dylib
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_typesupport_cpp.dylib
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/environment/pythonpath.sh
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/environment/pythonpath.dsv
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface-0.0.0-py3.10.egg-info
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/yolov8_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-darwin.so
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/_yolov8_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/msg
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/msg/_inference_result_s.c
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/msg/__init__.py
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/msg/_inference_result.py
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/msg/_yolov8_inference_s.c
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/msg/_yolov8_inference.py
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/yolov8_interface_s__rosidl_typesupport_c.cpython-310-darwin.so
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/__init__.py
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/_yolov8_interface_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/yolov8_interface_s__rosidl_typesupport_introspection_c.cpython-310-darwin.so
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/libyolov8_interface__rosidl_generator_py.dylib
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/_yolov8_interface_s.ep.rosidl_typesupport_c.c
+Listing 'lib/python3.10/site-packages/yolov8_interface'...
+Can't list 'lib/python3.10/site-packages/yolov8_interface'
+-- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/yolov8_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-darwin.so
+-- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/yolov8_interface_s__rosidl_typesupport_introspection_c.cpython-310-darwin.so
+-- Up-to-date: /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8_interface/yolov8_interface_s__rosidl_typesupport_c.cpython-310-darwin.so
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/lib/libyolov8_interface__rosidl_generator_py.dylib
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/msg/InferenceResult.idl
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/msg/Yolov8Inference.idl
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/msg/InferenceResult.msg
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/msg/Yolov8Inference.msg
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/ament_index/resource_index/package_run_dependencies/yolov8_interface
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/ament_index/resource_index/parent_prefix_path/yolov8_interface
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/environment/ament_prefix_path.sh
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/environment/ament_prefix_path.dsv
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/environment/path.sh
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/environment/path.dsv
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/local_setup.bash
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/local_setup.sh
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/local_setup.zsh
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/local_setup.dsv
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/package.dsv
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/ament_index/resource_index/packages/yolov8_interface
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/export_yolov8_interface__rosidl_generator_cExport.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/export_yolov8_interface__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/export_yolov8_interface__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/export_yolov8_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/export_yolov8_interface__rosidl_generator_cppExport.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/export_yolov8_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/export_yolov8_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/yolov8_interface__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/yolov8_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/yolov8_interface__rosidl_typesupport_cExport.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/yolov8_interface__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/yolov8_interface__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/yolov8_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/yolov8_interface__rosidl_typesupport_cppExport.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/yolov8_interface__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/export_yolov8_interface__rosidl_generator_pyExport.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/export_yolov8_interface__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/rosidl_cmake-extras.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/yolov8_interfaceConfig.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/cmake/yolov8_interfaceConfig-version.cmake
+-- Installing: /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface/package.xml

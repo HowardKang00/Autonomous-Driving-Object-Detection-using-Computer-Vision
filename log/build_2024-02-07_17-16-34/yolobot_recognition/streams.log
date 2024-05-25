@@ -1,0 +1,5 @@
+[0.066s] Invoking command in '/Users/howardkang/auto_car/build/yolobot_recognition': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/yolobot_recognition -- -j8 -l8
+[0.118s] CMake Error: The source directory "/Users/howardkang/auto_car/src/yolobot/src/yolobot_recognition" does not exist.
+[0.118s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.118s] make: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.147s] Invoked command in '/Users/howardkang/auto_car/build/yolobot_recognition' returned '2': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/yolobot_recognition -- -j8 -l8

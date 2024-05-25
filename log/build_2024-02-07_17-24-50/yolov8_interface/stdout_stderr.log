@@ -1,0 +1,8 @@
+failed to create symbolic link '/Users/howardkang/auto_car/build/yolov8_interface/ament_cmake_python/yolov8_interface/yolov8_interface' because existing path cannot be removed: Operation not permitted
+[ 10%] Built target yolov8_interface__rosidl_generator_c
+make[2]: *** [CMakeFiles/ament_cmake_python_symlink_yolov8_interface.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_yolov8_interface] Error 1
+make[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_yolov8_interface.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 12%] Built target yolov8_interface__cpp
+[ 23%] Built target yolov8_interface__rosidl_typesupport_fastrtps_c
+make: *** [Makefile:146: all] Error 2

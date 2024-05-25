@@ -1,0 +1,97 @@
+[0.039s] Invoking command in '/Users/howardkang/auto_car/build/yolov8_interface': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake /Users/howardkang/auto_car/src/yolov8_interface -DCMAKE_INSTALL_PREFIX=/Users/howardkang/auto_car/install/yolov8_interface
+[0.462s] -- The C compiler identification is Clang 16.0.1
+[0.540s] -- The CXX compiler identification is Clang 16.0.1
+[0.549s] -- Detecting C compiler ABI info
+[0.683s] -- Detecting C compiler ABI info - done
+[0.686s] -- Check for working C compiler: /Users/howardkang/miniconda3/envs/ros2/bin/arm64-apple-darwin20.0.0-clang - skipped
+[0.687s] -- Detecting C compile features
+[0.687s] -- Detecting C compile features - done
+[0.691s] -- Detecting CXX compiler ABI info
+[0.814s] -- Detecting CXX compiler ABI info - done
+[0.817s] -- Check for working CXX compiler: /Users/howardkang/miniconda3/envs/ros2/bin/arm64-apple-darwin20.0.0-clang++ - skipped
+[0.818s] -- Detecting CXX compile features
+[0.818s] -- Detecting CXX compile features - done
+[1.159s] -- Found Python3: /Users/howardkang/miniconda3/envs/ros2/bin/python3.10 (found version "3.10.13") found components: Interpreter 
+[1.183s] -- Found ament_cmake: 1.3.3 (/Users/howardkang/miniconda3/envs/ros2/share/ament_cmake/cmake)
+[1.380s] -- Found rosidl_default_generators: 1.2.0 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_default_generators/cmake)
+[1.391s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.415s] -- Found rosidl_adapter: 3.1.4 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_adapter/cmake)
+[1.507s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.713s] -- Found ament_cmake_ros: 0.10.0 (/Users/howardkang/miniconda3/envs/ros2/share/ament_cmake_ros/cmake)
+[1.792s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.862s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.876s] -- Found PythonInterp: /Users/howardkang/miniconda3/envs/ros2/bin/python3 (found suitable version "3.10.13", minimum required is "3.6") 
+[1.884s] -- Found python_cmake_module: 0.10.0 (/Users/howardkang/miniconda3/envs/ros2/share/python_cmake_module/cmake)
+[1.913s] -- Using PythonExtra_INCLUDE_DIRS: /Users/howardkang/miniconda3/envs/ros2/include/python3.10;/Users/howardkang/miniconda3/envs/ros2/include/python3.10
+[1.937s] -- Using PythonExtra_LIBRARIES: /Users/howardkang/miniconda3/envs/ros2/lib/libpython3.10.dylib
+[1.953s] -- Found PythonExtra: .so  
+[2.688s] -- Found Python3: /Users/howardkang/miniconda3/envs/ros2/bin/python3.10 (found version "3.10.13") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[2.721s] -- Found ament_lint_auto: 0.12.5 (/Users/howardkang/miniconda3/envs/ros2/share/ament_lint_auto/cmake)
+[2.794s] -- Added test 'lint_cmake' to check CMake code style
+[2.796s] -- Added test 'xmllint' to check XML markup files
+[2.800s] -- Configuring done (2.7s)
+[2.863s] -- Generating done (0.0s)
+[2.869s] -- Build files have been written to: /Users/howardkang/auto_car/build/yolov8_interface
+[2.873s] Invoked command in '/Users/howardkang/auto_car/build/yolov8_interface' returned '0': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake /Users/howardkang/auto_car/src/yolov8_interface -DCMAKE_INSTALL_PREFIX=/Users/howardkang/auto_car/install/yolov8_interface
+[2.875s] Invoking command in '/Users/howardkang/auto_car/build/yolov8_interface': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/yolov8_interface -- -j8 -l8
+[2.925s] [  2%] Generating C code for ROS interfaces
+[2.939s] [  5%] Generating C++ code for ROS interfaces
+[2.949s] [  5%] Built target ament_cmake_python_copy_yolov8_interface
+[3.210s] [  5%] Built target yolov8_interface__cpp
+[3.229s] [  7%] Generating C++ type support dispatch for ROS interfaces
+[3.231s] [ 10%] Generating C++ introspection for ROS interfaces
+[3.236s] [ 12%] Generating C++ type support for eProsima Fast-RTPS
+[3.249s] [ 15%] Building C object CMakeFiles/yolov8_interface__rosidl_generator_c.dir/rosidl_generator_c/yolov8_interface/msg/detail/inference_result__functions.c.o
+[3.251s] [ 17%] Building C object CMakeFiles/yolov8_interface__rosidl_generator_c.dir/rosidl_generator_c/yolov8_interface/msg/detail/yolov8_inference__functions.c.o
+[3.380s] In file included from /Users/howardkang/auto_car/build/yolov8_interface/rosidl_generator_c/yolov8_interface/msg/detail/yolov8_inference__functions.c:4:
+[3.380s] In file included from /Users/howardkang/auto_car/build/yolov8_interface/rosidl_generator_c/yolov8_interface/msg/detail/yolov8_inference__functions.h:19:
+[3.380s] /Users/howardkang/auto_car/build/yolov8_interface/rosidl_generator_c/yolov8_interface/msg/detail/yolov8_inference__struct.h:22:10: fatal error: 'std_msgs/msg/detail/header__struct.h' file not found
+[3.380s] #include "std_msgs/msg/detail/header__struct.h"
+[3.380s]          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[3.397s] 1 error generated.
+[3.403s] make[2]: *** [CMakeFiles/yolov8_interface__rosidl_generator_c.dir/build.make:135: CMakeFiles/yolov8_interface__rosidl_generator_c.dir/rosidl_generator_c/yolov8_interface/msg/detail/yolov8_inference__functions.c.o] Error 1
+[3.404s] make[2]: *** Waiting for unfinished jobs....
+[3.557s] running egg_info
+[3.557s] creating yolov8_interface.egg-info
+[3.575s] [ 20%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_interface/msg/inference_result__type_support.cpp.o
+[3.589s] [ 23%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_interface/msg/yolov8_inference__type_support.cpp.o
+[3.608s] writing yolov8_interface.egg-info/PKG-INFO
+[3.628s] [ 25%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_interface/msg/detail/inference_result__type_support.cpp.o
+[3.631s] [ 28%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_interface/msg/detail/yolov8_inference__type_support.cpp.o
+[3.632s] make[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/yolov8_interface__rosidl_generator_c.dir/all] Error 2
+[3.632s] make[1]: *** Waiting for unfinished jobs....
+[3.651s] writing dependency_links to yolov8_interface.egg-info/dependency_links.txt
+[3.651s] [ 30%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_interface/msg/detail/dds_fastrtps/inference_result__type_support.cpp.o
+[3.665s] [ 33%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_interface/msg/detail/dds_fastrtps/yolov8_inference__type_support.cpp.o
+[4.086s] writing top-level names to yolov8_interface.egg-info/top_level.txt
+[4.086s] writing manifest file 'yolov8_interface.egg-info/SOURCES.txt'
+[4.176s] reading manifest file 'yolov8_interface.egg-info/SOURCES.txt'
+[4.178s] writing manifest file 'yolov8_interface.egg-info/SOURCES.txt'
+[4.258s] [ 33%] Built target ament_cmake_python_build_yolov8_interface_egg
+[4.273s] In file included from /Users/howardkang/auto_car/build/yolov8_interface/rosidl_typesupport_cpp/yolov8_interface/msg/yolov8_inference__type_support.cpp:7:
+[4.273s] /Users/howardkang/auto_car/build/yolov8_interface/rosidl_generator_cpp/yolov8_interface/msg/detail/yolov8_inference__struct.hpp:20:10: fatal error: 'std_msgs/msg/detail/header__struct.hpp' file not found
+[4.273s] #include "std_msgs/msg/detail/header__struct.hpp"
+[4.273s]          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4.278s] 1 error generated.
+[4.280s] make[2]: *** [CMakeFiles/yolov8_interface__rosidl_typesupport_cpp.dir/build.make:104: CMakeFiles/yolov8_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_interface/msg/yolov8_inference__type_support.cpp.o] Error 1
+[4.280s] make[2]: *** Waiting for unfinished jobs....
+[4.281s] In file included from /Users/howardkang/auto_car/build/yolov8_interface/rosidl_typesupport_fastrtps_cpp/yolov8_interface/msg/detail/dds_fastrtps/yolov8_inference__type_support.cpp:4:
+[4.281s] In file included from /Users/howardkang/auto_car/build/yolov8_interface/rosidl_typesupport_fastrtps_cpp/yolov8_interface/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp:11:
+[4.281s] /Users/howardkang/auto_car/build/yolov8_interface/rosidl_generator_cpp/yolov8_interface/msg/detail/yolov8_inference__struct.hpp:20:10: fatal error: 'std_msgs/msg/detail/header__struct.hpp' file not found
+[4.281s] #include "std_msgs/msg/detail/header__struct.hpp"
+[4.281s]          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4.325s] In file included from /Users/howardkang/auto_car/build/yolov8_interface/rosidl_typesupport_introspection_cpp/yolov8_interface/msg/detail/yolov8_inference__type_support.cpp:12:
+[4.325s] /Users/howardkang/auto_car/build/yolov8_interface/rosidl_generator_cpp/yolov8_interface/msg/detail/yolov8_inference__struct.hpp:20:10: fatal error: 'std_msgs/msg/detail/header__struct.hpp' file not found
+[4.325s] #include "std_msgs/msg/detail/header__struct.hpp"
+[4.325s]          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4.325s] 1 error generated.
+[4.325s] make[2]: *** [CMakeFiles/yolov8_interface__rosidl_typesupport_introspection_cpp.dir/build.make:112: CMakeFiles/yolov8_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_interface/msg/detail/yolov8_inference__type_support.cpp.o] Error 1
+[4.325s] make[2]: *** Waiting for unfinished jobs....
+[4.343s] make[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/yolov8_interface__rosidl_typesupport_cpp.dir/all] Error 2
+[4.374s] make[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/yolov8_interface__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[4.403s] 1 error generated.
+[4.405s] make[2]: *** [CMakeFiles/yolov8_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make:112: CMakeFiles/yolov8_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_interface/msg/detail/dds_fastrtps/yolov8_inference__type_support.cpp.o] Error 1
+[4.405s] make[2]: *** Waiting for unfinished jobs....
+[4.470s] make[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/yolov8_interface__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[4.470s] make: *** [Makefile:146: all] Error 2
+[4.471s] Invoked command in '/Users/howardkang/auto_car/build/yolov8_interface' returned '2': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/yolov8_interface -- -j8 -l8

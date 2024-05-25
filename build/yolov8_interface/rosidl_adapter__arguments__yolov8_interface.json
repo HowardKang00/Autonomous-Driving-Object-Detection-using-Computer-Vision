@@ -1,0 +1,7 @@
+{
+  "package_name": "yolov8_interface",
+  "non_idl_tuples": [
+    "/Users/howardkang/auto_car/src/yolov8_interface:msg/InferenceResult.msg",
+    "/Users/howardkang/auto_car/src/yolov8_interface:msg/Yolov8Inference.msg"
+  ]
+}

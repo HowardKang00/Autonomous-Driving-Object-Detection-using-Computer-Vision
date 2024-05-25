@@ -1,0 +1,240 @@
+[0.092s] Invoking command in '/Users/howardkang/auto_car/build/my_package': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/my_package -- -j8 -l8
+[0.209s] [  2%] Built target my_package__cpp
+[0.222s] [  2%] Built target ament_cmake_python_symlink_my_package
+[0.225s] [ 12%] Built target my_package__rosidl_generator_c
+[0.324s] [ 23%] Built target my_package__rosidl_typesupport_cpp
+[0.325s] [ 33%] Built target my_package__rosidl_typesupport_introspection_cpp
+[0.328s] [ 43%] Built target my_package__rosidl_typesupport_introspection_c
+[0.328s] [ 53%] Built target my_package__rosidl_typesupport_fastrtps_cpp
+[0.334s] [ 64%] Built target my_package__rosidl_typesupport_fastrtps_c
+[0.345s] [ 74%] Built target my_package__rosidl_typesupport_c
+[0.375s] [ 74%] Built target my_package
+[0.404s] [ 76%] Built target my_package__py
+[0.458s] [ 84%] Built target my_package__rosidl_generator_py
+[0.523s] [ 89%] Built target my_package__rosidl_typesupport_introspection_c__pyext
+[0.523s] [ 94%] Built target my_package__rosidl_typesupport_fastrtps_c__pyext
+[0.527s] [100%] Built target my_package__rosidl_typesupport_c__pyext
+[0.700s] running egg_info
+[0.736s] writing my_package.egg-info/PKG-INFO
+[0.762s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[0.920s] writing top-level names to my_package.egg-info/top_level.txt
+[0.979s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[0.979s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[1.009s] [100%] Built target ament_cmake_python_build_my_package_egg
+[1.022s] Invoked command in '/Users/howardkang/auto_car/build/my_package' returned '0': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/my_package -- -j8 -l8
+[1.209s] Invoking command in '/Users/howardkang/auto_car/build/my_package': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --install /Users/howardkang/auto_car/build/my_package
+[1.219s] -- Install configuration: ""
+[1.220s] -- Execute custom install script
+[1.221s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/ament_index/resource_index/rosidl_interfaces/my_package
+[1.221s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/inference_result__functions.h
+[1.221s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/inference_result__struct.h
+[1.221s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/inference_result__type_support.h
+[1.222s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/yolov8_inference__functions.h
+[1.222s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/yolov8_inference__struct.h
+[1.222s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/yolov8_inference__type_support.h
+[1.222s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/inference_result.h
+[1.222s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/rosidl_generator_c__visibility_control.h
+[1.222s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/yolov8_inference.h
+[1.223s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h
+[1.223s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_c.h
+[1.223s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.223s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/inference_result__builder.hpp
+[1.224s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/inference_result__struct.hpp
+[1.224s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/inference_result__traits.hpp
+[1.224s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/yolov8_inference__builder.hpp
+[1.224s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/yolov8_inference__struct.hpp
+[1.224s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/yolov8_inference__traits.hpp
+[1.224s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/inference_result.hpp
+[1.225s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/yolov8_inference.hpp
+[1.225s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/inference_result__rosidl_typesupport_fastrtps_cpp.hpp
+[1.225s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp
+[1.226s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.226s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/inference_result__rosidl_typesupport_introspection_c.h
+[1.226s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/yolov8_inference__rosidl_typesupport_introspection_c.h
+[1.226s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.227s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp
+[1.227s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/yolov8_inference__rosidl_typesupport_introspection_cpp.hpp
+[1.227s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/environment/pythonpath.sh
+[1.227s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/environment/pythonpath.dsv
+[1.227s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info/PKG-INFO
+[1.228s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.228s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.228s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info/top_level.txt
+[1.228s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/__init__.py
+[1.229s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/_my_package_s.ep.rosidl_typesupport_c.c
+[1.229s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/_my_package_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.229s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/_my_package_s.ep.rosidl_typesupport_introspection_c.c
+[1.229s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/libmy_package__rosidl_generator_py.dylib
+[1.229s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/msg/__init__.py
+[1.229s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/msg/_inference_result.py
+[1.229s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/msg/_inference_result_s.c
+[1.230s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/msg/_yolov8_inference.py
+[1.230s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/msg/_yolov8_inference_s.c
+[1.230s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_c.cpython-310-darwin.so
+[1.230s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_fastrtps_c.cpython-310-darwin.so
+[1.230s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_introspection_c.cpython-310-darwin.so
+[1.231s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_fastrtps_c.cpython-310-darwin.so
+[1.231s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_introspection_c.cpython-310-darwin.so
+[1.232s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_c.cpython-310-darwin.so
+[1.232s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/msg/InferenceResult.idl
+[1.232s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/msg/Yolov8Inference.idl
+[1.232s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/msgs/InferenceResult.msg
+[1.232s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/msgs/Yolov8Inference.msg
+[1.233s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/description/.DS_Store
+[1.233s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/description/camera.xacro
+[1.233s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/description/camera1.xacro
+[1.233s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/description/camera_full.xacro
+[1.233s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/description/gazebo_control.xacro
+[1.233s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/description/gazebo_control_full.xacro
+[1.233s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/description/inertial_macros.xacro
+[1.234s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/description/lidar.xacro
+[1.234s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/description/lidar_full.xacro
+[1.234s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/description/robot.urdf.xacro
+[1.234s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/description/robot_core.xacro
+[1.234s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/description/robot_core_full.xacro
+[1.234s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/description/robot_github.urdf.xacro
+[1.234s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/description/yolobot.urdf
+[1.235s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/launch/listener.launch.py
+[1.235s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/launch/rsp.launch.py
+[1.235s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/launch/rsp.launch.sim.py
+[1.235s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/launch/talker.launch.py
+[1.235s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/launch/yolov8.launch.py
+[1.235s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/worlds/city
+[1.236s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/worlds/city_small
+[1.236s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/worlds/city_small_new
+[1.236s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/worlds/city_small_newest
+[1.236s] -- Symlinking: /Users/howardkang/auto_car/install/my_package/share/my_package/worlds/city_with_walls_half
+[1.246s] -- Symlinking: /Users/howardkang/auto_car/install/my_package/share/my_package/worlds/city_without_walls
+[1.256s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/worlds/cone_world
+[1.256s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/worlds/hello.world
+[1.256s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/worlds/small_city.world
+[1.256s] -- Symlinking: /Users/howardkang/auto_car/install/my_package/share/my_package/worlds/testing_wall
+[1.266s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/worlds/world_config
+[1.266s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/worlds/world_config_full
+[1.266s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/worlds/world_test.world
+[1.266s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/worlds/world_test2.world
+[1.266s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/.DS_Store
+[1.267s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/actuators.py
+[1.267s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/decision_making.py
+[1.267s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/sensor_sim.py
+[1.267s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/msgs/InferenceResult.msg
+[1.267s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/msgs/Yolov8Inference.msg
+[1.267s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/config/drive_bot.rviz
+[1.267s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/config/drive_bot2.rviz
+[1.267s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/config/mapper_params_online_async.yaml
+[1.268s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/map/.DS_Store
+[1.268s] -- Symlinking: /Users/howardkang/auto_car/install/my_package/share/my_package/map/city
+[1.277s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/map/my_map_save.pgm
+[1.277s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/map/my_map_save.yaml
+[1.277s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/map/my_map_serialize.data
+[1.278s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/map/my_map_serialize.posegraph
+[1.278s] -- Symlinking: /Users/howardkang/auto_car/install/my_package/share/my_package/map/testing.save.pgm
+[1.287s] -- Symlinking: /Users/howardkang/auto_car/install/my_package/share/my_package/map/testing.save.yaml
+[1.297s] -- Symlinking: /Users/howardkang/auto_car/install/my_package/share/my_package/map/testing.serialize.data
+[1.307s] -- Symlinking: /Users/howardkang/auto_car/install/my_package/share/my_package/map/testing.serialize.posegraph
+[1.318s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/description/.DS_Store
+[1.318s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/description/camera.xacro
+[1.318s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/description/camera1.xacro
+[1.318s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/description/camera_full.xacro
+[1.318s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/description/gazebo_control.xacro
+[1.318s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/description/gazebo_control_full.xacro
+[1.318s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/description/inertial_macros.xacro
+[1.318s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/description/lidar.xacro
+[1.318s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/description/lidar_full.xacro
+[1.319s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/description/robot.urdf.xacro
+[1.319s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/description/robot_core.xacro
+[1.319s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/description/robot_core_full.xacro
+[1.319s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/description/robot_github.urdf.xacro
+[1.319s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/description/yolobot.urdf
+[1.319s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/launch/listener.launch.py
+[1.319s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/launch/rsp.launch.py
+[1.320s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/launch/rsp.launch.sim.py
+[1.320s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/launch/talker.launch.py
+[1.320s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/launch/yolov8.launch.py
+[1.320s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/worlds/city
+[1.320s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/worlds/city_small
+[1.320s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/worlds/city_small_new
+[1.320s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/worlds/city_small_newest
+[1.320s] -- Symlinking: /Users/howardkang/auto_car/install/my_package/lib/my_package/worlds/city_with_walls_half
+[1.331s] -- Symlinking: /Users/howardkang/auto_car/install/my_package/lib/my_package/worlds/city_without_walls
+[1.400s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/worlds/cone_world
+[1.400s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/worlds/hello.world
+[1.400s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/worlds/small_city.world
+[1.400s] -- Symlinking: /Users/howardkang/auto_car/install/my_package/lib/my_package/worlds/testing_wall
+[1.400s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/worlds/world_config
+[1.400s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/worlds/world_config_full
+[1.400s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/worlds/world_test.world
+[1.400s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/worlds/world_test2.world
+[1.400s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/.DS_Store
+[1.400s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/actuators.py
+[1.400s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/decision_making.py
+[1.400s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/sensor_sim.py
+[1.400s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/msgs/InferenceResult.msg
+[1.400s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/msgs/Yolov8Inference.msg
+[1.400s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/config/drive_bot.rviz
+[1.400s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/config/drive_bot2.rviz
+[1.400s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/config/mapper_params_online_async.yaml
+[1.400s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/map/.DS_Store
+[1.400s] -- Symlinking: /Users/howardkang/auto_car/install/my_package/lib/my_package/map/city
+[1.400s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/map/my_map_save.pgm
+[1.400s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/map/my_map_save.yaml
+[1.400s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/map/my_map_serialize.data
+[1.400s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/map/my_map_serialize.posegraph
+[1.400s] -- Symlinking: /Users/howardkang/auto_car/install/my_package/lib/my_package/map/testing.save.pgm
+[1.400s] -- Symlinking: /Users/howardkang/auto_car/install/my_package/lib/my_package/map/testing.save.yaml
+[1.400s] -- Symlinking: /Users/howardkang/auto_car/install/my_package/lib/my_package/map/testing.serialize.data
+[1.400s] -- Symlinking: /Users/howardkang/auto_car/install/my_package/lib/my_package/map/testing.serialize.posegraph
+[1.404s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[1.404s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[1.404s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[1.404s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[1.405s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/environment/path.sh
+[1.405s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/environment/path.dsv
+[1.405s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/local_setup.bash
+[1.405s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/local_setup.sh
+[1.405s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/local_setup.zsh
+[1.406s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/local_setup.dsv
+[1.406s] -- Symlinking: /Users/howardkang/auto_car/install/my_package/share/my_package/package.dsv
+[1.416s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/ament_index/resource_index/packages/my_package
+[1.416s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/rosidl_cmake-extras.cmake
+[1.416s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.416s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.417s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/ament_cmake_export_libraries-extras.cmake
+[1.417s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/ament_cmake_export_targets-extras.cmake
+[1.417s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.417s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.417s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[1.417s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[1.417s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/package.xml
+[1.417s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_generator_c.dylib
+[1.417s] -- Installing: /Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_c.dylib
+[1.422s] [cctools-port]: generating fake signature for '/Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_c.dylib'
+[1.429s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_cpp.dylib
+[1.429s] -- Installing: /Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_c.dylib
+[1.432s] [cctools-port]: generating fake signature for '/Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_c.dylib'
+[1.439s] -- Installing: /Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_typesupport_c.dylib
+[1.442s] [cctools-port]: generating fake signature for '/Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_typesupport_c.dylib'
+[1.450s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_cpp.dylib
+[1.450s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_typesupport_cpp.dylib
+[1.475s] Listing 'lib/python3.10/site-packages/my_package'...
+[1.475s] Can't list 'lib/python3.10/site-packages/my_package'
+[1.478s] -- Installing: /Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_generator_py.dylib
+[1.481s] [cctools-port]: generating fake signature for '/Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_generator_py.dylib'
+[1.489s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_cExport.cmake
+[1.489s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_cExport-noconfig.cmake
+[1.490s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/export_my_package__rosidl_typesupport_fastrtps_cExport.cmake
+[1.490s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/export_my_package__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.490s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_cppExport.cmake
+[1.490s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/export_my_package__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.490s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/export_my_package__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.490s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cExport.cmake
+[1.491s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.491s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cExport.cmake
+[1.491s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cExport-noconfig.cmake
+[1.491s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cppExport.cmake
+[1.491s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.491s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cppExport.cmake
+[1.491s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cppExport-noconfig.cmake
+[1.491s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_pyExport.cmake
+[1.492s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_pyExport-noconfig.cmake
+[1.493s] Invoked command in '/Users/howardkang/auto_car/build/my_package' returned '0': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --install /Users/howardkang/auto_car/build/my_package

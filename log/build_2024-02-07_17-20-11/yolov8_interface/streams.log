@@ -1,0 +1,23 @@
+[1.256s] Invoking command in '/Users/howardkang/auto_car/build/yolov8_interface': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/Users/howardkang/auto_car/build/yolov8_interface/prefix_override:/Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/python3.10 setup.py develop --editable --build-directory /Users/howardkang/auto_car/build/yolov8_interface/build --no-deps install_data
+[1.754s] running develop
+[1.755s] /Users/howardkang/miniconda3/envs/ros2/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.755s]   warnings.warn(
+[1.829s] /Users/howardkang/miniconda3/envs/ros2/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.829s]   warnings.warn(
+[2.048s] running egg_info
+[2.048s] creating yolov8_interface.egg-info
+[2.083s] writing yolov8_interface.egg-info/PKG-INFO
+[2.109s] writing dependency_links to yolov8_interface.egg-info/dependency_links.txt
+[2.243s] writing requirements to yolov8_interface.egg-info/requires.txt
+[2.269s] writing top-level names to yolov8_interface.egg-info/top_level.txt
+[2.269s] writing manifest file 'yolov8_interface.egg-info/SOURCES.txt'
+[2.312s] reading manifest file 'yolov8_interface.egg-info/SOURCES.txt'
+[2.312s] writing manifest file 'yolov8_interface.egg-info/SOURCES.txt'
+[2.346s] running build_ext
+[2.346s] Creating /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8-interface.egg-link (link to .)
+[2.347s] 
+[2.347s] Installed /Users/howardkang/auto_car/build/yolov8_interface
+[2.347s] running install_data
+[2.347s] copying resource/yolov8_interface -> /Users/howardkang/auto_car/install/yolov8_interface/share/ament_index/resource_index/packages
+[2.347s] copying package.xml -> /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface
+[2.366s] Invoked command in '/Users/howardkang/auto_car/build/yolov8_interface' returned '0': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/Users/howardkang/auto_car/build/yolov8_interface/prefix_override:/Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/python3.10 setup.py develop --editable --build-directory /Users/howardkang/auto_car/build/yolov8_interface/build --no-deps install_data

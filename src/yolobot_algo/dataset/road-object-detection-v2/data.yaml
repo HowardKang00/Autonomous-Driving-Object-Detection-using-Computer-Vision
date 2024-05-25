@@ -1,0 +1,13 @@
+train: ../dataset/road-object-detection-v2/train/images
+val: ../dataset/road-object-detection-v2/valid/images
+test: ../dataset/road-object-detection-v2/test/images
+
+nc: 8
+names: ['Dumpster', 'Post Box', 'Road Sign', 'Street Light', 'Traffic Cone', 'Traffic Light', 'Tree', 'Vehicle']
+
+roboflow:
+  workspace: autonomous-driving-object-detecton
+  project: road-object-detection-sasmv
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/autonomous-driving-object-detecton/road-object-detection-sasmv/dataset/3

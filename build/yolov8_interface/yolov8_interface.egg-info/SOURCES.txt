@@ -1,0 +1,11 @@
+package.xml
+setup.cfg
+setup.py
+resource/yolov8_interface
+yolov8_interface/__init__.py
+yolov8_interface.egg-info/PKG-INFO
+yolov8_interface.egg-info/SOURCES.txt
+yolov8_interface.egg-info/dependency_links.txt
+yolov8_interface.egg-info/requires.txt
+yolov8_interface.egg-info/top_level.txt
+yolov8_interface.egg-info/zip-safe

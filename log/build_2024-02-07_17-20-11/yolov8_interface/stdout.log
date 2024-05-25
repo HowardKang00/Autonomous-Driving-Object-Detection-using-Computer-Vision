@@ -1,0 +1,17 @@
+running develop
+running egg_info
+creating yolov8_interface.egg-info
+writing yolov8_interface.egg-info/PKG-INFO
+writing dependency_links to yolov8_interface.egg-info/dependency_links.txt
+writing requirements to yolov8_interface.egg-info/requires.txt
+writing top-level names to yolov8_interface.egg-info/top_level.txt
+writing manifest file 'yolov8_interface.egg-info/SOURCES.txt'
+reading manifest file 'yolov8_interface.egg-info/SOURCES.txt'
+writing manifest file 'yolov8_interface.egg-info/SOURCES.txt'
+running build_ext
+Creating /Users/howardkang/auto_car/install/yolov8_interface/lib/python3.10/site-packages/yolov8-interface.egg-link (link to .)
+
+Installed /Users/howardkang/auto_car/build/yolov8_interface
+running install_data
+copying resource/yolov8_interface -> /Users/howardkang/auto_car/install/yolov8_interface/share/ament_index/resource_index/packages
+copying package.xml -> /Users/howardkang/auto_car/install/yolov8_interface/share/yolov8_interface

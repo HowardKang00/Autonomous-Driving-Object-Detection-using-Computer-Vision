@@ -1,0 +1,229 @@
+-- The C compiler identification is Clang 16.0.1
+-- The CXX compiler identification is Clang 16.0.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/howardkang/miniconda3/envs/ros2/bin/arm64-apple-darwin20.0.0-clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/howardkang/miniconda3/envs/ros2/bin/arm64-apple-darwin20.0.0-clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.3 (/Users/howardkang/miniconda3/envs/ros2/share/ament_cmake_auto/cmake)
+-- Found Python3: /opt/homebrew/Frameworks/Python.framework/Versions/3.12/bin/python3.12 (found version "3.12.1") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_ros: 0.10.0 (/Users/howardkang/miniconda3/envs/ros2/share/ament_cmake_ros/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.2.5
+-- Found rmw_implementation_cmake: 6.1.1 (/Users/howardkang/miniconda3/envs/ros2/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/Users/howardkang/miniconda3/envs/ros2/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done (5.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/howardkang/auto_car/build/rplidar_ros
+[  5%] Building CXX object CMakeFiles/rplidarNode.dir/src/node.cpp.o
+[ 16%] Building CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_socket.cpp.o
+[ 16%] Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o
+[ 22%] Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o
+[ 27%] Building CXX object CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o
+[ 33%] Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o
+[ 38%] Building CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_serial.cpp.o
+[ 44%] Building CXX object CMakeFiles/rplidar_composition_node.dir/src/rplidar_node.cpp.o
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/arch/linux/net_serial.cpp:55:10: fatal error: 'asm/ioctls.h' file not found
+#include <asm/ioctls.h>
+         ^~~~~~~~~~~~~~
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/arch/linux/net_socket.cpp:10:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/src/sdkcommon.h:48:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar.h:39:
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar_protocol.h:59:14: warning: zero size arrays are an extension [-Wzero-length-array]
+    _u8 data[0];
+             ^
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/arch/linux/net_socket.cpp:10:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/src/sdkcommon.h:48:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar.h:40:
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar_cmd.h:260:18: warning: zero size arrays are an extension [-Wzero-length-array]
+    _u8  payload[0];
+                 ^
+1 error generated.
+make[2]: *** [CMakeFiles/rplidarNode.dir/build.make:90: CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/arch/linux/net_socket.cpp:170:15: error: ordered comparison between pointer and zero ('const char *' and 'int')
+    return ans<=0?RESULT_OPERATION_FAIL:RESULT_OK;
+           ~~~^ ~
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/arch/linux/net_socket.cpp:438:17: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+        if (ans == (int)len) {
+            ~~~ ^  ~~~~~~~~
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/arch/linux/net_socket.cpp:726:24: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+            assert(ans == (int)len);
+                   ~~~ ^  ~~~~~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h:99:25: note: expanded from macro 'assert'
+    (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __ASSERT_FILE_NAME, __LINE__, #e) : (void)0)
+                        ^
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/arch/linux/net_socket.cpp:818:20: error: use of undeclared identifier 'AF_PACKET'
+            return AF_PACKET;
+                   ^
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/arch/linux/net_serial.cpp:55:10: fatal error: 'asm/ioctls.h' file not found
+#include <asm/ioctls.h>
+         ^~~~~~~~~~~~~~
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/arch/linux/net_socket.cpp:10:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/src/sdkcommon.h:48:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar.h:39:
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar_protocol.h:59:14: warning: zero size arrays are an extension [-Wzero-length-array]
+    _u8 data[0];
+             ^
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/arch/linux/net_socket.cpp:10:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/src/sdkcommon.h:48:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar.h:40:
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar_cmd.h:260:18: warning: zero size arrays are an extension [-Wzero-length-array]
+    _u8  payload[0];
+                 ^
+[ 50%] Building CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/timer.cpp.o
+1 error generated.
+make[2]: *** [CMakeFiles/rplidar_composition_node.dir/build.make:90: CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_serial.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/arch/linux/net_socket.cpp:170:15: error: ordered comparison between pointer and zero ('const char *' and 'int')
+    return ans<=0?RESULT_OPERATION_FAIL:RESULT_OK;
+           ~~~^ ~
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/arch/linux/net_socket.cpp:438:17: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+        if (ans == (int)len) {
+            ~~~ ^  ~~~~~~~~
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/arch/linux/net_socket.cpp:726:24: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+            assert(ans == (int)len);
+                   ~~~ ^  ~~~~~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h:99:25: note: expanded from macro 'assert'
+    (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __ASSERT_FILE_NAME, __LINE__, #e) : (void)0)
+                        ^
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/sdk/src/arch/linux/net_socket.cpp:818:20: error: use of undeclared identifier 'AF_PACKET'
+            return AF_PACKET;
+                   ^
+4 warnings and 2 errors generated.
+make[2]: *** [CMakeFiles/rplidarNode.dir/build.make:104: CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o] Error 1
+4 warnings and 2 errors generated.
+make[2]: *** [CMakeFiles/rplidar_composition_node.dir/build.make:104: CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_socket.cpp.o] Error 1
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/client.cpp:43:9: warning: 'M_PI' macro redefined [-Wmacro-redefined]
+#define M_PI 3.1415926535897932384626433832795
+        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h:695:9: note: previous definition is here
+#define M_PI        3.14159265358979323846264338327950288   /* pi             */
+        ^
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/rplidar_node.cpp:36:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/include/rplidar_node.hpp:41:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar.h:39:
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar_protocol.h:59:14: warning: zero size arrays are an extension [-Wzero-length-array]
+    _u8 data[0];
+             ^
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/rplidar_node.cpp:36:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/include/rplidar_node.hpp:41:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar.h:40:
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar_cmd.h:260:18: warning: zero size arrays are an extension [-Wzero-length-array]
+    _u8  payload[0];
+                 ^
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/rplidar_node.cpp:36:
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/include/rplidar_node.hpp:50:9: warning: 'M_PI' macro redefined [-Wmacro-redefined]
+#define M_PI 3.1415926535897932384626433832795
+        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h:695:9: note: previous definition is here
+#define M_PI        3.14159265358979323846264338327950288   /* pi             */
+        ^
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/node.cpp:45:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar.h:39:
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar_protocol.h:59:14: warning: zero size arrays are an extension [-Wzero-length-array]
+    _u8 data[0];
+             ^
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/node.cpp:45:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar.h:40:
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/./sdk/include/rplidar_cmd.h:260:18: warning: zero size arrays are an extension [-Wzero-length-array]
+    _u8  payload[0];
+                 ^
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/node.cpp:51:9: warning: 'M_PI' macro redefined [-Wmacro-redefined]
+#define M_PI 3.1415926535897932384626433832795
+        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h:695:9: note: previous definition is here
+#define M_PI        3.14159265358979323846264338327950288   /* pi             */
+        ^
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/node.cpp:70:16: warning: variable 'scan_count' set but not used [-Wunused-but-set-variable]
+    static int scan_count = 0;
+               ^
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/node.cpp:166:70: warning: unused parameter 'req' [-Wunused-parameter]
+bool stop_motor(const std::shared_ptr<std_srvs::srv::Empty::Request> req,
+                                                                     ^
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/node.cpp:167:65: warning: unused parameter 'res' [-Wunused-parameter]
+                std::shared_ptr<std_srvs::srv::Empty::Response> res)
+                                                                ^
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/node.cpp:178:71: warning: unused parameter 'req' [-Wunused-parameter]
+bool start_motor(const std::shared_ptr<std_srvs::srv::Empty::Request> req,
+                                                                      ^
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/node.cpp:179:66: warning: unused parameter 'res' [-Wunused-parameter]
+                 std::shared_ptr<std_srvs::srv::Empty::Response> res)
+                                                                 ^
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/node.cpp:231:72: error: invalid suffix on literal; C++11 requires a space between literal and identifier [-Wreserved-user-defined-literal]
+    ROS_INFO("RPLIDAR running on ROS package rplidar_ros. SDK Version:"RPLIDAR_SDK_VERSION"");
+                                                                       ^
+                                                                        
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/rplidar_node.cpp:142:17: warning: variable 'scan_count' set but not used [-Wunused-but-set-variable]
+  static size_t scan_count = 0;
+                ^
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/node.cpp:356:83: warning: variable length arrays are a C99 feature [-Wvla-extension]
+                    rplidar_response_measurement_node_hq_t angle_compensate_nodes[angle_compensate_nodes_count];
+                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/node.cpp:356:83: note: initializer of 'angle_compensate_nodes_count' is not a constant expression
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/node.cpp:354:31: note: declared here
+                    const int angle_compensate_nodes_count = 360*angle_compensate_multiple;
+                              ^
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/node.cpp:360:30: warning: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+                    for( ; i < count; i++ ) {
+                           ~ ^ ~~~~~
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/rplidar_node.cpp:245:50: warning: unused parameter 'req' [-Wunused-parameter]
+void rplidar_node::stop_motor(const EmptyRequest req, EmptyResponse res)
+                                                 ^
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/rplidar_node.cpp:245:69: warning: unused parameter 'res' [-Wunused-parameter]
+void rplidar_node::stop_motor(const EmptyRequest req, EmptyResponse res)
+                                                                    ^
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/rplidar_node.cpp:256:51: warning: unused parameter 'req' [-Wunused-parameter]
+void rplidar_node::start_motor(const EmptyRequest req, EmptyResponse res)
+                                                  ^
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/rplidar_node.cpp:256:70: warning: unused parameter 'res' [-Wunused-parameter]
+void rplidar_node::start_motor(const EmptyRequest req, EmptyResponse res)
+                                                                     ^
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/rplidar_node.cpp:343:69: warning: variable length arrays are a C99 feature [-Wvla-extension]
+      rplidar_response_measurement_node_hq_t angle_compensate_nodes[angle_compensate_nodes_count];
+                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/rplidar_node.cpp:343:69: note: initializer of 'angle_compensate_nodes_count' is not a constant expression
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/rplidar_node.cpp:341:17: note: declared here
+      const int angle_compensate_nodes_count = 360 * m_angle_compensate_multiple;
+                ^
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/rplidar_node.cpp:381:11: warning: unused variable 'angle_min' [-Wunused-variable]
+    float angle_min = deg_2_rad(0.0f);
+          ^
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/rplidar_node.cpp:382:11: warning: unused variable 'angle_max' [-Wunused-variable]
+    float angle_max = deg_2_rad(359.0f);
+          ^
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/rplidar_node.cpp:353:25: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+          for (j = 0; j < m_angle_compensate_multiple; j++) {
+                      ~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/rplidar_node.cpp:374:44: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+      for (size_t x = start_node, y = 0; x < end_node; ++x, ++y) {
+                                         ~ ^ ~~~~~~~~
+10 warnings and 1 error generated.
+make[2]: *** [CMakeFiles/rplidarNode.dir/build.make:76: CMakeFiles/rplidarNode.dir/src/node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/rplidarNode.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from /Users/howardkang/auto_car/src/rplidar_ros2-ros2/src/rplidar_node.cpp:36:
+/Users/howardkang/auto_car/src/rplidar_ros2-ros2/include/rplidar_node.hpp:121:10: warning: private field 'm_scan_count' is not used [-Wunused-private-field]
+  size_t m_scan_count = 0;
+         ^
+14 warnings generated.
+make[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/rplidar_composition_node.dir/all] Error 2
+1 warning generated.
+[ 55%] Linking CXX executable rplidarNodeClient
+[ 55%] Built target rplidarNodeClient
+make: *** [Makefile:146: all] Error 2

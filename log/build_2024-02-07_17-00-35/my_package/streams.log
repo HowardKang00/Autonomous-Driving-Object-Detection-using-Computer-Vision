@@ -1,0 +1,23 @@
+[0.095s] Invoking command in '/Users/howardkang/auto_car/build/my_package': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/my_package -- -j8 -l8
+[0.182s] [ 12%] Built target my_package__rosidl_generator_c
+[0.182s] [ 12%] Built target my_package__cpp
+[0.208s] [ 12%] Built target ament_cmake_python_symlink_my_package
+[0.232s] [ 23%] Built target my_package__rosidl_typesupport_introspection_c
+[0.241s] [ 33%] Built target my_package__rosidl_typesupport_c
+[0.252s] [ 43%] Built target my_package__rosidl_typesupport_cpp
+[0.252s] [ 56%] Built target my_package__rosidl_typesupport_introspection_cpp
+[0.252s] [ 64%] Built target my_package__rosidl_typesupport_fastrtps_c
+[0.275s] [ 74%] Built target my_package__rosidl_typesupport_fastrtps_cpp
+[0.290s] [ 74%] Built target my_package
+[0.355s] [ 76%] Built target my_package__py
+[0.372s] [ 84%] Built target my_package__rosidl_generator_py
+[0.414s] [ 89%] Built target my_package__rosidl_typesupport_fastrtps_c__pyext
+[0.415s] [ 94%] Built target my_package__rosidl_typesupport_c__pyext
+[0.464s] [100%] Built target my_package__rosidl_typesupport_introspection_c__pyext
+[0.639s] running egg_info
+[0.675s] writing my_package.egg-info/PKG-INFO
+[0.702s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[0.869s] writing top-level names to my_package.egg-info/top_level.txt
+[0.922s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[0.922s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[0.951s] [100%] Built target ament_cmake_python_build_my_package_egg

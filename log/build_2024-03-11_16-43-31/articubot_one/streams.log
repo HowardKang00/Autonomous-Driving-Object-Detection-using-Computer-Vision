@@ -1,0 +1,34 @@
+[0.113s] Invoking command in '/Users/howardkang/auto_car/build/articubot_one': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/articubot_one -- -j8 -l8
+[0.201s] Invoked command in '/Users/howardkang/auto_car/build/articubot_one' returned '0': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/articubot_one -- -j8 -l8
+[0.361s] Invoking command in '/Users/howardkang/auto_car/build/articubot_one': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --install /Users/howardkang/auto_car/build/articubot_one
+[0.374s] -- Install configuration: ""
+[0.376s] -- Execute custom install script
+[0.376s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[0.377s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/config/empty.yaml
+[0.378s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[0.381s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[0.381s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[0.381s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/description/lidar.xacro
+[0.381s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[0.381s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[0.381s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[0.381s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[0.382s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[0.382s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/worlds/empty.world
+[0.382s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[0.382s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[0.383s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[0.384s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[0.384s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[0.384s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/environment/path.sh
+[0.384s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/environment/path.dsv
+[0.384s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/local_setup.bash
+[0.384s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/local_setup.sh
+[0.384s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/local_setup.zsh
+[0.384s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/local_setup.dsv
+[0.384s] -- Symlinking: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/package.dsv
+[0.390s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[0.390s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[0.390s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[0.390s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/articubot_one/share/articubot_one/package.xml
+[0.397s] Invoked command in '/Users/howardkang/auto_car/build/articubot_one' returned '0': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --install /Users/howardkang/auto_car/build/articubot_one

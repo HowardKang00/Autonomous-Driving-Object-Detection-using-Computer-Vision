@@ -1,0 +1,34 @@
+-- Found Python3: /Users/howardkang/miniconda3/envs/ros2/bin/python3.10 (found version "3.10.13") found components: Interpreter 
+-- Found std_msgs: 4.2.3 (/Users/howardkang/miniconda3/envs/ros2/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.2.0 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/Users/howardkang/miniconda3/envs/ros2/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/Users/howardkang/miniconda3/envs/ros2/share/python_cmake_module/cmake)
+-- Using PythonExtra_INCLUDE_DIRS: /Users/howardkang/miniconda3/envs/ros2/include/python3.10;/Users/howardkang/miniconda3/envs/ros2/include/python3.10
+-- Using PythonExtra_LIBRARIES: /Users/howardkang/miniconda3/envs/ros2/lib/libpython3.10.dylib
+-- Found Python3: /Users/howardkang/miniconda3/envs/ros2/bin/python3.10 (found version "3.10.13") found components: Development NumPy Interpreter Development.Module Development.Embed 
+-- Found ament_lint_auto: 0.12.5 (/Users/howardkang/miniconda3/envs/ros2/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.8s)
+-- Generating done (0.1s)
+-- Build files have been written to: /Users/howardkang/auto_car/build/yolov8_interface
+[  2%] Built target yolov8_interface__cpp
+[  5%] Building C object CMakeFiles/yolov8_interface__rosidl_generator_c.dir/rosidl_generator_c/yolov8_interface/msg/detail/yolov8_inference__functions.c.o
+[  5%] Built target ament_cmake_python_copy_yolov8_interface
+[ 12%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_interface/msg/detail/dds_fastrtps/yolov8_inference__type_support.cpp.o
+[ 12%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_interface/msg/yolov8_inference__type_support.cpp.o
+[ 12%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_interface/msg/detail/yolov8_inference__type_support.cpp.o
+running egg_info
+writing yolov8_interface.egg-info/PKG-INFO
+writing dependency_links to yolov8_interface.egg-info/dependency_links.txt
+writing top-level names to yolov8_interface.egg-info/top_level.txt
+reading manifest file 'yolov8_interface.egg-info/SOURCES.txt'
+writing manifest file 'yolov8_interface.egg-info/SOURCES.txt'
+[ 12%] Built target ament_cmake_python_build_yolov8_interface_egg

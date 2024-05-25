@@ -1,0 +1,13 @@
+[  2%] Built target yolov8_interface__cpp
+[  5%] Building C object CMakeFiles/yolov8_interface__rosidl_generator_c.dir/rosidl_generator_c/yolov8_interface/msg/detail/yolov8_inference__functions.c.o
+[  5%] Built target ament_cmake_python_copy_yolov8_interface
+[  7%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_interface/msg/yolov8_inference__type_support.cpp.o
+[ 10%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_interface/msg/detail/yolov8_inference__type_support.cpp.o
+[ 12%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_interface/msg/detail/dds_fastrtps/yolov8_inference__type_support.cpp.o
+running egg_info
+writing yolov8_interface.egg-info/PKG-INFO
+writing dependency_links to yolov8_interface.egg-info/dependency_links.txt
+writing top-level names to yolov8_interface.egg-info/top_level.txt
+reading manifest file 'yolov8_interface.egg-info/SOURCES.txt'
+writing manifest file 'yolov8_interface.egg-info/SOURCES.txt'
+[ 12%] Built target ament_cmake_python_build_yolov8_interface_egg

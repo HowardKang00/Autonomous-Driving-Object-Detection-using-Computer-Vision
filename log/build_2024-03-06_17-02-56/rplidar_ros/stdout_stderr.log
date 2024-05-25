@@ -1,0 +1,1 @@
+CMake Error: The source "/Users/howardkang/auto_car/src/rplidar_ros-master/CMakeLists.txt" does not match the source "/Users/howardkang/auto_car/src/rplidar_ros2-ros2/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.

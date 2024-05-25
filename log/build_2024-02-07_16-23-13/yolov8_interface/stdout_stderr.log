@@ -1,0 +1,6 @@
+CMake Error at CMakeLists.txt:22:
+  Parse error.  Expected a command name, got right paren with text ")".
+
+
+-- Configuring incomplete, errors occurred!
+make: *** [Makefile:963: cmake_check_build_system] Error 1

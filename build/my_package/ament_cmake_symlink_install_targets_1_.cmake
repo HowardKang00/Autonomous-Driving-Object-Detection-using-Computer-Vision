@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/Users/howardkang/auto_car/build/my_package/rosidl_generator_py/my_package/my_package_s__rosidl_typesupport_introspection_c.cpython-310-darwin.so" "TARGETS" "my_package__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.10/site-packages/my_package")

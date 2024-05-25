@@ -1,0 +1,8 @@
+[0.041s] Invoking command in '/Users/howardkang/auto_car/build/yolov8_interface': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/yolov8_interface -- -j8 -l8
+[0.113s] CMake Error at CMakeLists.txt:22:
+[0.113s]   Parse error.  Expected a command name, got right paren with text ")".
+[0.113s] 
+[0.113s] 
+[0.113s] -- Configuring incomplete, errors occurred!
+[0.115s] make: *** [Makefile:963: cmake_check_build_system] Error 1
+[0.116s] Invoked command in '/Users/howardkang/auto_car/build/yolov8_interface' returned '2': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/yolov8_interface -- -j8 -l8

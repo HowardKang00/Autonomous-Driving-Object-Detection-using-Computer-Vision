@@ -1,0 +1,45 @@
+[  2%] Built target yolov8_interface__cpp
+[  5%] Building C object CMakeFiles/yolov8_interface__rosidl_generator_c.dir/rosidl_generator_c/yolov8_interface/msg/detail/yolov8_inference__functions.c.o
+[  5%] Built target ament_cmake_python_copy_yolov8_interface
+[  7%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_interface/msg/yolov8_inference__type_support.cpp.o
+[ 10%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_interface/msg/detail/yolov8_inference__type_support.cpp.o
+[ 12%] Building CXX object CMakeFiles/yolov8_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_interface/msg/detail/dds_fastrtps/yolov8_inference__type_support.cpp.o
+running egg_info
+writing yolov8_interface.egg-info/PKG-INFO
+writing dependency_links to yolov8_interface.egg-info/dependency_links.txt
+writing top-level names to yolov8_interface.egg-info/top_level.txt
+reading manifest file 'yolov8_interface.egg-info/SOURCES.txt'
+writing manifest file 'yolov8_interface.egg-info/SOURCES.txt'
+[ 12%] Built target ament_cmake_python_build_yolov8_interface_egg
+In file included from /Users/howardkang/auto_car/build/yolov8_interface/rosidl_generator_c/yolov8_interface/msg/detail/yolov8_inference__functions.c:4:
+In file included from /Users/howardkang/auto_car/build/yolov8_interface/rosidl_generator_c/yolov8_interface/msg/detail/yolov8_inference__functions.h:19:
+/Users/howardkang/auto_car/build/yolov8_interface/rosidl_generator_c/yolov8_interface/msg/detail/yolov8_inference__struct.h:22:10: fatal error: 'std_msgs/msg/detail/header__struct.h' file not found
+#include "std_msgs/msg/detail/header__struct.h"
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/yolov8_interface__rosidl_generator_c.dir/build.make:135: CMakeFiles/yolov8_interface__rosidl_generator_c.dir/rosidl_generator_c/yolov8_interface/msg/detail/yolov8_inference__functions.c.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/yolov8_interface__rosidl_generator_c.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from In file included from /Users/howardkang/auto_car/build/yolov8_interface/rosidl_typesupport_cpp/yolov8_interface/msg/yolov8_inference__type_support.cpp/Users/howardkang/auto_car/build/yolov8_interface/rosidl_typesupport_fastrtps_cpp/yolov8_interface/msg/detail/dds_fastrtps/yolov8_inference__type_support.cpp::74:
+:
+/Users/howardkang/auto_car/build/yolov8_interface/rosidl_generator_cpp/yolov8_interface/msg/detail/yolov8_inference__struct.hpp:20:10: fatal error: 'std_msgs/msg/detail/header__struct.hpp' file not found
+In file included from /Users/howardkang/auto_car/build/yolov8_interface/rosidl_typesupport_fastrtps_cpp/yolov8_interface/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp:11:
+/Users/howardkang/auto_car/build/yolov8_interface/rosidl_generator_cpp/yolov8_interface/msg/detail/yolov8_inference__struct.hpp:20:10: fatal error: 'std_msgs/msg/detail/header__struct.hpp' file not found
+#include "std_msgs/msg/detail/header__struct.hpp"
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#include "std_msgs/msg/detail/header__struct.hpp"
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+In file included from /Users/howardkang/auto_car/build/yolov8_interface/rosidl_typesupport_introspection_cpp/yolov8_interface/msg/detail/yolov8_inference__type_support.cpp:12:
+/Users/howardkang/auto_car/build/yolov8_interface/rosidl_generator_cpp/yolov8_interface/msg/detail/yolov8_inference__struct.hpp:20:10: fatal error: 'std_msgs/msg/detail/header__struct.hpp' file not found
+#include "std_msgs/msg/detail/header__struct.hpp"
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/yolov8_interface__rosidl_typesupport_cpp.dir/build.make:104: CMakeFiles/yolov8_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_interface/msg/yolov8_inference__type_support.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/yolov8_interface__rosidl_typesupport_cpp.dir/all] Error 2
+1 error generated.
+make[2]: *** [CMakeFiles/yolov8_interface__rosidl_typesupport_introspection_cpp.dir/build.make:112: CMakeFiles/yolov8_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_interface/msg/detail/yolov8_inference__type_support.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/yolov8_interface__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+1 error generated.
+make[2]: *** [CMakeFiles/yolov8_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make:112: CMakeFiles/yolov8_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_interface/msg/detail/dds_fastrtps/yolov8_inference__type_support.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/yolov8_interface__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

@@ -1,0 +1,192 @@
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/rplidar_driver.cpp:35:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/src/sdkcommon.h:48:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/include/rplidar.h:39:
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/include/rplidar_protocol.h:59:14: warning: zero size arrays are an extension [-Wzero-length-array]
+    _u8 data[0];
+             ^
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/hal/thread.cpp:35:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/src/sdkcommon.h:48:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/include/rplidar.h:39:
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/include/rplidar_protocol.h:59:14: warning: zero size arrays are an extension [-Wzero-length-array]
+    _u8 data[0];
+             ^
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/arch/macOS/net_socket.cpp:10:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/src/sdkcommon.h:48:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/include/rplidar.h:39:
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/include/rplidar_protocol.h:59:14: warning: zero size arrays are an extension [-Wzero-length-array]
+    _u8 data[0];
+             ^
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/arch/macOS/net_socket.cpp:10:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/src/sdkcommon.h:48:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/include/rplidar.h:40:
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/include/rplidar_cmd.h:260:18: warning: zero size arrays are an extension [-Wzero-length-array]
+    _u8  payload[0];
+                 ^
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/rplidar_driver.cpp:35:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/src/sdkcommon.h:48:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/include/rplidar.h:40:
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/include/rplidar_cmd.h:260:18: warning: zero size arrays are an extension [-Wzero-length-array]
+    _u8  payload[0];
+                 ^
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/hal/thread.cpp:35:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/src/sdkcommon.h:48:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/include/rplidar.h:40:
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/include/rplidar_cmd.h:260:18: warning: zero size arrays are an extension [-Wzero-length-array]
+    _u8  payload[0];
+                 ^
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/hal/thread.cpp:41:
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/src/arch/macOS/thread.hpp:59:46: warning: unused parameter 'p' [-Wunused-parameter]
+u_result Thread::setPriority( priority_val_t p)
+                                             ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/src/arch/macOS/thread.hpp:71:37: warning: unused parameter 'timeout' [-Wunused-parameter]
+u_result Thread::join(unsigned long timeout)
+                                    ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/rplidar_driver.cpp:121:46: warning: unused parameter 'timeout' [-Wunused-parameter]
+u_result RPlidarDriverImplCommon::reset(_u32 timeout)
+                                             ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/rplidar_driver.cpp:275:75: warning: unused parameter 'timeout' [-Wunused-parameter]
+u_result RPlidarDriverImplCommon::checkIfTofLidar(bool & isTofLidar, _u32 timeout)
+                                                                          ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/rplidar_driver.cpp:671:16: warning: variable 'last_angleInc_q16' set but not used [-Wunused-but-set-variable]
+    static int last_angleInc_q16 = 0;
+               ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/rplidar_driver.cpp:673:9: warning: unused variable 'syncBit_check_threshold' [-Wunused-variable]
+    int syncBit_check_threshold = (int)((5 << 16) / angleInc_q16) + 1;//find syncBit in 0~3 degree
+        ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/rplidar_driver.cpp:771:46: warning: unused variable 'last_scan_count' [-Wunused-variable]
+    size_t                                   last_scan_count = 0;
+                                             ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/rplidar_driver.cpp:850:17: warning: unused variable 'syncBit_check_threshold' [-Wunused-variable]
+            int syncBit_check_threshold = (int)((2 << 16) / angleInc_q16) + 1;//find syncBit in 0~1 degree
+                ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/arch/macOS/net_serial.cpp:71:74: warning: unused parameter 'flags' [-Wunused-parameter]
+bool raw_serial::open(const char * portname, uint32_t baudrate, uint32_t flags)
+                                                                         ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/arch/macOS/net_serial.cpp:177:30: warning: unused parameter 'flags' [-Wunused-parameter]
+void raw_serial::flush( _u32 flags)
+                             ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/arch/macOS/net_serial.cpp:182:34: warning: unused parameter 'timeout' [-Wunused-parameter]
+int raw_serial::waitforsent(_u32 timeout, _word_size_t * returned_size)
+                                 ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/arch/macOS/net_serial.cpp:188:34: warning: unused parameter 'timeout' [-Wunused-parameter]
+int raw_serial::waitforrecv(_u32 timeout, _word_size_t * returned_size)
+                                 ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/rplidar_driver.cpp:1256:21: warning: unused variable 'syncBit_check_threshold' [-Wunused-variable]
+                int syncBit_check_threshold = (int)((3 << 16) / angleInc_q16)+1;//find syncBit in 0~1 degree
+                    ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/rplidar_driver.cpp:1238:32: warning: comparison of integers of different signs: 'int' and 'unsigned int' [-Wsign-compare]
+            if ((dist_predict1 == 0xFFFFFE00) || (dist_predict1 == 0x1FF)) {
+                 ~~~~~~~~~~~~~ ^  ~~~~~~~~~~
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/rplidar_driver.cpp:1246:32: warning: comparison of integers of different signs: 'int' and 'unsigned int' [-Wsign-compare]
+            if ((dist_predict2 == 0xFFFFFE00) || (dist_predict2 == 0x1FF)) {
+                 ~~~~~~~~~~~~~ ^  ~~~~~~~~~~
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/rplidar_driver.cpp:1484:105: warning: unused parameter 'timeoutInMs' [-Wunused-parameter]
+u_result RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<RplidarScanMode>& outModes, _u32 timeoutInMs)
+                                                                                                        ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/rplidar_driver.cpp:1581:83: warning: unused parameter 'options' [-Wunused-parameter]
+u_result RPlidarDriverImplCommon::startScan(bool force, bool useTypicalScan, _u32 options, RplidarScanMode* outUsedScanMode)
+                                                                                  ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/rplidar_driver.cpp:1805:45: warning: unused parameter 'timeout' [-Wunused-parameter]
+u_result RPlidarDriverImplCommon::stop(_u32 timeout)
+                                            ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/rplidar_driver.cpp:2193:68: warning: unused parameter 'timeout' [-Wunused-parameter]
+u_result RPlidarDriverImplCommon::setLidarSpinSpeed(_u16 rpm, _u32 timeout)
+                                                                   ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/rplidar_driver.cpp:2225:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]
+}
+^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/rplidar_driver.cpp:2270:83: warning: unused parameter 'flag' [-Wunused-parameter]
+u_result RPlidarDriverSerial::connect(const char * port_path, _u32 baudrate, _u32 flag)
+                                                                                  ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/rplidar_driver.cpp:2312:72: warning: unused parameter 'flag' [-Wunused-parameter]
+u_result RPlidarDriverTCP::connect(const char * ipStr, _u32 port, _u32 flag)
+                                                                       ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/arch/macOS/net_socket.cpp:439:17: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+        if (ans == (int)len) {
+            ~~~ ^  ~~~~~~~~
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/sdk/src/arch/macOS/net_socket.cpp:727:24: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+            assert(ans == (int)len);
+                   ~~~ ^  ~~~~~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h:99:25: note: expanded from macro 'assert'
+    (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __ASSERT_FILE_NAME, __LINE__, #e) : (void)0)
+                        ^
+4 warnings generated.
+4 warnings generated.
+4 warnings generated.
+18 warnings generated.
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/src/rplidar_node.cpp:36:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/include/rplidar_node.hpp:41:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/include/rplidar.h:39:
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/include/rplidar_protocol.h:59:14: warning: zero size arrays are an extension [-Wzero-length-array]
+    _u8 data[0];
+             ^
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/src/rplidar_node.cpp:36:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/include/rplidar_node.hpp:41:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/include/rplidar.h:40:
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/include/rplidar_cmd.h:260:18: warning: zero size arrays are an extension [-Wzero-length-array]
+    _u8  payload[0];
+                 ^
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/src/rplidar_node.cpp:36:
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/include/rplidar_node.hpp:50:9: warning: 'M_PI' macro redefined [-Wmacro-redefined]
+#define M_PI 3.1415926535897932384626433832795
+        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h:695:9: note: previous definition is here
+#define M_PI        3.14159265358979323846264338327950288   /* pi             */
+        ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/src/rplidar_node.cpp:140:17: warning: variable 'scan_count' set but not used [-Wunused-but-set-variable]
+  static size_t scan_count = 0;
+                ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/src/rplidar_node.cpp:243:50: warning: unused parameter 'req' [-Wunused-parameter]
+void rplidar_node::stop_motor(const EmptyRequest req, EmptyResponse res)
+                                                 ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/src/rplidar_node.cpp:243:69: warning: unused parameter 'res' [-Wunused-parameter]
+void rplidar_node::stop_motor(const EmptyRequest req, EmptyResponse res)
+                                                                    ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/src/rplidar_node.cpp:256:51: warning: unused parameter 'req' [-Wunused-parameter]
+void rplidar_node::start_motor(const EmptyRequest req, EmptyResponse res)
+                                                  ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/src/rplidar_node.cpp:256:70: warning: unused parameter 'res' [-Wunused-parameter]
+void rplidar_node::start_motor(const EmptyRequest req, EmptyResponse res)
+                                                                     ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/src/rplidar_node.cpp:400:11: warning: unused variable 'angle_min' [-Wunused-variable]
+    float angle_min = deg_2_rad(0.0f);
+          ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/src/rplidar_node.cpp:401:11: warning: unused variable 'angle_max' [-Wunused-variable]
+    float angle_max = deg_2_rad(359.0f);
+          ^
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/src/rplidar_node.cpp:372:25: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+          for (j = 0; j < m_angle_compensate_multiple; j++) {
+                      ~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/src/rplidar_node.cpp:393:44: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+      for (size_t x = start_node, y = 0; x < end_node; ++x, ++y) {
+                                         ~ ^ ~~~~~~~~
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/src/rplidar_node.cpp:36:
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/include/rplidar_node.hpp:125:10: warning: private field 'm_scan_count' is not used [-Wunused-private-field]
+  size_t m_scan_count = 0;
+         ^
+13 warnings generated.
+ld: warning: -pie being ignored. It is only used when linking a main executable
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/src/standalone_rplidar.cpp:16:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/include/rplidar_node.hpp:41:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/include/rplidar.h:39:
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/include/rplidar_protocol.h:59:14: warning: zero size arrays are an extension [-Wzero-length-array]
+    _u8 data[0];
+             ^
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/src/standalone_rplidar.cpp:16:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/include/rplidar_node.hpp:41:
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/include/rplidar.h:40:
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/./sdk/include/rplidar_cmd.h:260:18: warning: zero size arrays are an extension [-Wzero-length-array]
+    _u8  payload[0];
+                 ^
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/src/standalone_rplidar.cpp:16:
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/include/rplidar_node.hpp:50:9: warning: 'M_PI' macro redefined [-Wmacro-redefined]
+#define M_PI 3.1415926535897932384626433832795
+        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h:695:9: note: previous definition is here
+#define M_PI        3.14159265358979323846264338327950288   /* pi             */
+        ^
+In file included from /Users/howardkang/auto_car/src/rplidar_ros-ros2/src/standalone_rplidar.cpp:16:
+/Users/howardkang/auto_car/src/rplidar_ros-ros2/include/rplidar_node.hpp:76:14: warning: unused function 'getAngle' [-Wunused-function]
+static float getAngle(const rplidar_response_measurement_node_hq_t & node)
+             ^
+4 warnings generated.

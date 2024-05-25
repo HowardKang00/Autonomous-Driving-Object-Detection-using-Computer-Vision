@@ -1,0 +1,307 @@
+[0.095s] Invoking command in '/Users/howardkang/auto_car/build/my_package': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/my_package -- -j8 -l8
+[0.241s] -- Found ament_cmake: 1.3.3 (/Users/howardkang/miniconda3/envs/ros2/share/ament_cmake/cmake)
+[0.337s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.338s] -- Found std_msgs: 4.2.3 (/Users/howardkang/miniconda3/envs/ros2/share/std_msgs/cmake)
+[0.365s] -- Found rosidl_generator_c: 3.1.4 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_generator_c/cmake)
+[0.368s] -- Found rosidl_adapter: 3.1.4 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_adapter/cmake)
+[0.378s] -- Found rosidl_generator_cpp: 3.1.4 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_generator_cpp/cmake)
+[0.442s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.442s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.468s] -- Found rosidl_default_generators: 1.2.0 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_default_generators/cmake)
+[0.638s] -- Found ament_cmake_ros: 0.10.0 (/Users/howardkang/miniconda3/envs/ros2/share/ament_cmake_ros/cmake)
+[0.796s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.855s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.872s] -- Found python_cmake_module: 0.10.0 (/Users/howardkang/miniconda3/envs/ros2/share/python_cmake_module/cmake)
+[0.892s] -- Using PythonExtra_INCLUDE_DIRS: /Users/howardkang/miniconda3/envs/ros2/include/python3.10;/Users/howardkang/miniconda3/envs/ros2/include/python3.10
+[0.893s] -- Using PythonExtra_LIBRARIES: /Users/howardkang/miniconda3/envs/ros2/lib/libpython3.10.dylib
+[1.157s] -- Found Python3: /Users/howardkang/miniconda3/envs/ros2/bin/python3.10 (found version "3.10.13") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[1.189s] -- Found ament_lint_auto: 0.12.5 (/Users/howardkang/miniconda3/envs/ros2/share/ament_lint_auto/cmake)
+[1.239s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.243s] -- Added test 'lint_cmake' to check CMake code style
+[1.245s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.256s] -- Added test 'xmllint' to check XML markup files
+[1.284s] -- Configuring done (1.1s)
+[1.455s] -- Generating done (0.1s)
+[1.463s] -- Build files have been written to: /Users/howardkang/auto_car/build/my_package
+[1.514s] [  2%] Generating C code for ROS interfaces
+[1.537s] [  5%] Generating C++ code for ROS interfaces
+[1.550s] [  5%] Built target ament_cmake_python_symlink_my_package
+[1.921s] [  7%] Building C object CMakeFiles/my_package__rosidl_generator_c.dir/rosidl_generator_c/my_package/msg/detail/inference_result__functions.c.o
+[1.929s] [  7%] Built target my_package__cpp
+[1.937s] [ 10%] Building C object CMakeFiles/my_package__rosidl_generator_c.dir/rosidl_generator_c/my_package/msg/detail/yolov8_inference__functions.c.o
+[1.958s] [ 15%] Generating C++ type support for eProsima Fast-RTPS
+[1.958s] [ 15%] Generating C++ introspection for ROS interfaces
+[1.963s] [ 17%] Generating C++ type support dispatch for ROS interfaces
+[2.433s] [ 23%] Building CXX object CMakeFiles/my_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_package/msg/yolov8_inference__type_support.cpp.o
+[2.433s] [ 23%] Building CXX object CMakeFiles/my_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_package/msg/inference_result__type_support.cpp.o
+[2.465s] running egg_info
+[2.501s] [ 25%] Building CXX object CMakeFiles/my_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_package/msg/detail/yolov8_inference__type_support.cpp.o
+[2.501s] [ 28%] Building CXX object CMakeFiles/my_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_package/msg/detail/inference_result__type_support.cpp.o
+[2.502s] [ 30%] Building CXX object CMakeFiles/my_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_package/msg/detail/dds_fastrtps/inference_result__type_support.cpp.o
+[2.552s] writing my_package.egg-info/PKG-INFO
+[2.590s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[2.922s] [ 33%] Linking C shared library libmy_package__rosidl_generator_c.dylib
+[2.986s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[3.103s] writing top-level names to my_package.egg-info/top_level.txt
+[3.127s] [ 33%] Built target my_package__rosidl_generator_c
+[3.225s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[3.226s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[3.288s] [ 33%] Built target ament_cmake_python_build_my_package_egg
+[3.397s] [ 35%] Linking CXX shared library libmy_package__rosidl_typesupport_cpp.dylib
+[3.443s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[3.484s] [ 35%] Built target my_package__rosidl_typesupport_cpp
+[3.487s] [ 38%] Linking CXX shared library libmy_package__rosidl_typesupport_introspection_cpp.dylib
+[3.494s] [ 41%] Building CXX object CMakeFiles/my_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_package/msg/detail/dds_fastrtps/yolov8_inference__type_support.cpp.o
+[3.519s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[3.553s] [ 41%] Built target my_package__rosidl_typesupport_introspection_cpp
+[4.152s] [ 43%] Linking CXX shared library libmy_package__rosidl_typesupport_fastrtps_cpp.dylib
+[4.190s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[4.226s] [ 43%] Built target my_package__rosidl_typesupport_fastrtps_cpp
+[4.241s] [ 46%] Generating C introspection for ROS interfaces
+[4.497s] [ 48%] Building C object CMakeFiles/my_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_package/msg/detail/inference_result__type_support.c.o
+[4.553s] [ 51%] Building C object CMakeFiles/my_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_package/msg/detail/yolov8_inference__type_support.c.o
+[4.611s] [ 53%] Linking C shared library libmy_package__rosidl_typesupport_introspection_c.dylib
+[4.650s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[4.685s] [ 53%] Built target my_package__rosidl_typesupport_introspection_c
+[4.708s] [ 56%] Generating C type support for eProsima Fast-RTPS
+[5.063s] [ 58%] Building CXX object CMakeFiles/my_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_package/msg/detail/inference_result__type_support_c.cpp.o
+[5.766s] [ 61%] Building CXX object CMakeFiles/my_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_package/msg/detail/yolov8_inference__type_support_c.cpp.o
+[6.572s] [ 64%] Linking CXX shared library libmy_package__rosidl_typesupport_fastrtps_c.dylib
+[6.608s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[6.646s] [ 64%] Built target my_package__rosidl_typesupport_fastrtps_c
+[6.663s] [ 66%] Generating C type support dispatch for ROS interfaces
+[6.890s] [ 69%] Building CXX object CMakeFiles/my_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_package/msg/inference_result__type_support.cpp.o
+[6.954s] [ 71%] Building CXX object CMakeFiles/my_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_package/msg/yolov8_inference__type_support.cpp.o
+[7.007s] [ 74%] Linking CXX shared library libmy_package__rosidl_typesupport_c.dylib
+[7.046s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[7.082s] [ 74%] Built target my_package__rosidl_typesupport_c
+[7.112s] [ 74%] Built target my_package
+[7.146s] [ 76%] Generating Python code for ROS interfaces
+[7.515s] [ 76%] Built target my_package__py
+[7.557s] [ 79%] Building C object CMakeFiles/my_package__rosidl_generator_py.dir/rosidl_generator_py/my_package/msg/_inference_result_s.c.o
+[7.696s] [ 82%] Building C object CMakeFiles/my_package__rosidl_generator_py.dir/rosidl_generator_py/my_package/msg/_yolov8_inference_s.c.o
+[7.844s] [ 84%] Linking C shared library rosidl_generator_py/my_package/libmy_package__rosidl_generator_py.dylib
+[7.893s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[7.941s] [ 84%] Built target my_package__rosidl_generator_py
+[7.981s] [ 87%] Building C object CMakeFiles/my_package__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_package/_my_package_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[8.093s] [ 89%] Linking C shared library rosidl_generator_py/my_package/my_package_s__rosidl_typesupport_fastrtps_c.cpython-310-darwin.so
+[8.131s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[8.172s] [ 89%] Built target my_package__rosidl_typesupport_fastrtps_c__pyext
+[8.259s] [ 92%] Building C object CMakeFiles/my_package__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_package/_my_package_s.ep.rosidl_typesupport_c.c.o
+[8.366s] [ 94%] Linking C shared library rosidl_generator_py/my_package/my_package_s__rosidl_typesupport_c.cpython-310-darwin.so
+[8.425s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[8.462s] [ 94%] Built target my_package__rosidl_typesupport_c__pyext
+[8.505s] [ 97%] Building C object CMakeFiles/my_package__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_package/_my_package_s.ep.rosidl_typesupport_introspection_c.c.o
+[8.637s] [100%] Linking C shared library rosidl_generator_py/my_package/my_package_s__rosidl_typesupport_introspection_c.cpython-310-darwin.so
+[8.674s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[8.729s] [100%] Built target my_package__rosidl_typesupport_introspection_c__pyext
+[8.744s] Invoked command in '/Users/howardkang/auto_car/build/my_package' returned '0': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/my_package -- -j8 -l8
+[9.027s] Invoking command in '/Users/howardkang/auto_car/build/my_package': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --install /Users/howardkang/auto_car/build/my_package
+[9.037s] -- Install configuration: ""
+[9.037s] -- Execute custom install script
+[9.038s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/ament_index/resource_index/rosidl_interfaces/my_package
+[9.038s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/inference_result__functions.h
+[9.038s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/inference_result__struct.h
+[9.038s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/inference_result__type_support.h
+[9.038s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/yolov8_inference__functions.h
+[9.039s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/yolov8_inference__struct.h
+[9.039s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/yolov8_inference__type_support.h
+[9.039s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/inference_result.h
+[9.039s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/rosidl_generator_c__visibility_control.h
+[9.039s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/yolov8_inference.h
+[9.039s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h
+[9.039s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_c.h
+[9.040s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.040s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/inference_result__builder.hpp
+[9.040s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/inference_result__struct.hpp
+[9.040s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/inference_result__traits.hpp
+[9.040s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/yolov8_inference__builder.hpp
+[9.040s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/yolov8_inference__struct.hpp
+[9.041s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/yolov8_inference__traits.hpp
+[9.041s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/inference_result.hpp
+[9.041s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/yolov8_inference.hpp
+[9.041s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/inference_result__rosidl_typesupport_fastrtps_cpp.hpp
+[9.041s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp
+[9.041s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.042s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/inference_result__rosidl_typesupport_introspection_c.h
+[9.042s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/yolov8_inference__rosidl_typesupport_introspection_c.h
+[9.042s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.043s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp
+[9.043s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/include/my_package/my_package/msg/detail/yolov8_inference__rosidl_typesupport_introspection_cpp.hpp
+[9.043s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/environment/pythonpath.sh
+[9.044s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/environment/pythonpath.dsv
+[9.044s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info/PKG-INFO
+[9.044s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.044s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.044s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info/top_level.txt
+[9.045s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/__init__.py
+[9.045s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/_my_package_s.ep.rosidl_typesupport_c.c
+[9.045s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/_my_package_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.045s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/_my_package_s.ep.rosidl_typesupport_introspection_c.c
+[9.045s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/libmy_package__rosidl_generator_py.dylib
+[9.045s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/msg/__init__.py
+[9.046s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/msg/_inference_result.py
+[9.046s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/msg/_inference_result_s.c
+[9.046s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/msg/_yolov8_inference.py
+[9.046s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/msg/_yolov8_inference_s.c
+[9.046s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_c.cpython-310-darwin.so
+[9.046s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_fastrtps_c.cpython-310-darwin.so
+[9.046s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_introspection_c.cpython-310-darwin.so
+[9.046s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_fastrtps_c.cpython-310-darwin.so
+[9.047s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_introspection_c.cpython-310-darwin.so
+[9.047s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_c.cpython-310-darwin.so
+[9.047s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/msg/InferenceResult.idl
+[9.047s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/msg/Yolov8Inference.idl
+[9.048s] -- Symlinking: /Users/howardkang/auto_car/install/my_package/share/my_package/msgs/InferenceResult.msg
+[9.060s] -- Symlinking: /Users/howardkang/auto_car/install/my_package/share/my_package/msgs/Yolov8Inference.msg
+[9.073s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/description/.DS_Store
+[9.073s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/description/camera.xacro
+[9.074s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/description/gazebo_control.xacro
+[9.074s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/description/inertial_macros.xacro
+[9.074s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/description/robot.urdf.xacro
+[9.074s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/description/robot_core.xacro
+[9.075s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/description/robot_github.urdf.xacro
+[9.075s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/launch/listener.launch.py
+[9.075s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/launch/rsp.launch.py
+[9.075s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/launch/rsp.launch.sim.py
+[9.075s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/launch/talker.launch.py
+[9.075s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/launch/yolov8.launch.py
+[9.075s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/worlds/world_test.world
+[9.076s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/worlds/world_test2.world
+[9.076s] CMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[9.076s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[9.076s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[9.076s]   Use the cmake_policy command to set the policy and suppress this warning.
+[9.076s] Call Stack (most recent call first):
+[9.077s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:368 (ament_cmake_symlink_install_directory)
+[9.077s]   cmake_install.cmake:41 (include)
+[9.077s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[9.077s] 
+[9.077s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/build/.built_by
+[9.077s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/build/COLCON_IGNORE
+[9.077s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/install/.colcon_install_layout
+[9.077s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/install/COLCON_IGNORE
+[9.077s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/install/_local_setup_util_ps1.py
+[9.077s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/install/_local_setup_util_sh.py
+[9.077s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/install/local_setup.bash
+[9.077s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/install/local_setup.ps1
+[9.077s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/install/local_setup.sh
+[9.077s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/install/local_setup.zsh
+[9.077s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/install/setup.bash
+[9.078s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/install/setup.ps1
+[9.078s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/install/setup.sh
+[9.078s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/install/setup.zsh
+[9.078s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/log/COLCON_IGNORE
+[9.078s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/log/build_2024-02-07_01-39-20/events.log
+[9.078s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/log/build_2024-02-07_01-39-20/logger_all.log
+[9.078s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/log/latest/events.log
+[9.078s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/log/latest/logger_all.log
+[9.078s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/log/latest_build/events.log
+[9.078s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/log/latest_build/logger_all.log
+[9.078s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/robot_control.py
+[9.078s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/yolov8_ros2_pt.py
+[9.078s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/yolov8_ros2_subscriber.py
+[9.079s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/scripts/yolov8n.pt
+[9.079s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/description/.DS_Store
+[9.079s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/description/camera.xacro
+[9.080s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/description/gazebo_control.xacro
+[9.080s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/description/inertial_macros.xacro
+[9.080s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/description/robot.urdf.xacro
+[9.080s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/description/robot_core.xacro
+[9.080s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/description/robot_github.urdf.xacro
+[9.080s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/launch/listener.launch.py
+[9.081s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/launch/rsp.launch.py
+[9.081s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/launch/rsp.launch.sim.py
+[9.081s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/launch/talker.launch.py
+[9.081s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/launch/yolov8.launch.py
+[9.081s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/worlds/world_test.world
+[9.081s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/worlds/world_test2.world
+[9.081s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/build/.built_by
+[9.082s] CMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[9.082s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[9.082s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[9.082s]   Use the cmake_policy command to set the policy and suppress this warning.
+[9.082s] Call Stack (most recent call first):
+[9.082s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:371 (ament_cmake_symlink_install_directory)
+[9.083s]   cmake_install.cmake:41 (include)
+[9.083s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[9.083s] 
+[9.083s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/build/COLCON_IGNORE
+[9.083s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/install/.colcon_install_layout
+[9.083s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/install/COLCON_IGNORE
+[9.083s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/install/_local_setup_util_ps1.py
+[9.083s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/install/_local_setup_util_sh.py
+[9.083s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/install/local_setup.bash
+[9.083s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/install/local_setup.ps1
+[9.083s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/install/local_setup.sh
+[9.083s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/install/local_setup.zsh
+[9.083s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/install/setup.bash
+[9.083s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/install/setup.ps1
+[9.083s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/install/setup.sh
+[9.083s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/install/setup.zsh
+[9.083s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/log/COLCON_IGNORE
+[9.083s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/log/build_2024-02-07_01-39-20/events.log
+[9.083s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/log/build_2024-02-07_01-39-20/logger_all.log
+[9.083s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/log/latest/events.log
+[9.084s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/log/latest/logger_all.log
+[9.084s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/log/latest_build/events.log
+[9.084s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/log/latest_build/logger_all.log
+[9.084s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/robot_control.py
+[9.084s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/yolov8_ros2_pt.py
+[9.084s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/yolov8_ros2_subscriber.py
+[9.084s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/scripts/yolov8n.pt
+[9.084s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/lib/my_package/yolov8_ros2_pt.py
+[9.084s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[9.084s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[9.085s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[9.085s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[9.085s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/environment/path.sh
+[9.085s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/environment/path.dsv
+[9.085s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/local_setup.bash
+[9.085s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/local_setup.sh
+[9.085s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/local_setup.zsh
+[9.085s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/local_setup.dsv
+[9.086s] -- Symlinking: /Users/howardkang/auto_car/install/my_package/share/my_package/package.dsv
+[9.097s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/ament_index/resource_index/packages/my_package
+[9.097s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/rosidl_cmake-extras.cmake
+[9.098s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.099s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.099s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/ament_cmake_export_libraries-extras.cmake
+[9.100s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/ament_cmake_export_targets-extras.cmake
+[9.100s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.100s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.100s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[9.100s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[9.100s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/my_package/share/my_package/package.xml
+[9.100s] -- Installing: /Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_generator_c.dylib
+[9.102s] -- Installing: /Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_c.dylib
+[9.107s] [cctools-port]: generating fake signature for '/Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_c.dylib'
+[9.121s] -- Installing: /Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_cpp.dylib
+[9.121s] -- Installing: /Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_c.dylib
+[9.124s] [cctools-port]: generating fake signature for '/Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_c.dylib'
+[9.133s] -- Installing: /Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_typesupport_c.dylib
+[9.136s] [cctools-port]: generating fake signature for '/Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_typesupport_c.dylib'
+[9.145s] -- Installing: /Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_cpp.dylib
+[9.145s] -- Installing: /Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_typesupport_cpp.dylib
+[9.173s] Listing 'lib/python3.10/site-packages/my_package'...
+[9.173s] Can't list 'lib/python3.10/site-packages/my_package'
+[9.176s] -- Installing: /Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_generator_py.dylib
+[9.179s] [cctools-port]: generating fake signature for '/Users/howardkang/auto_car/install/my_package/lib/libmy_package__rosidl_generator_py.dylib'
+[9.189s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_cExport.cmake
+[9.189s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_cExport-noconfig.cmake
+[9.189s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/export_my_package__rosidl_typesupport_fastrtps_cExport.cmake
+[9.189s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/export_my_package__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.189s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_cppExport.cmake
+[9.189s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/export_my_package__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.189s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/export_my_package__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.190s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cExport.cmake
+[9.190s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.190s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cExport.cmake
+[9.190s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cExport-noconfig.cmake
+[9.190s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cppExport.cmake
+[9.190s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.190s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cppExport.cmake
+[9.190s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cppExport-noconfig.cmake
+[9.191s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_pyExport.cmake
+[9.191s] -- Up-to-date: /Users/howardkang/auto_car/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_pyExport-noconfig.cmake
+[9.192s] Invoked command in '/Users/howardkang/auto_car/build/my_package' returned '0': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --install /Users/howardkang/auto_car/build/my_package

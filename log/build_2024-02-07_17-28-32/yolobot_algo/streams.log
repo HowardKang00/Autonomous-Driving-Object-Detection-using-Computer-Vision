@@ -1,0 +1,185 @@
+[0.038s] Invoking command in '/Users/howardkang/auto_car/build/yolobot_algo': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake /Users/howardkang/auto_car/src/yolobot_algo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/Users/howardkang/auto_car/install/yolobot_algo
+[2.505s] -- The C compiler identification is Clang 16.0.1
+[2.584s] -- The CXX compiler identification is Clang 16.0.1
+[2.593s] -- Detecting C compiler ABI info
+[2.725s] -- Detecting C compiler ABI info - done
+[2.729s] -- Check for working C compiler: /Users/howardkang/miniconda3/envs/ros2/bin/arm64-apple-darwin20.0.0-clang - skipped
+[2.729s] -- Detecting C compile features
+[2.730s] -- Detecting C compile features - done
+[2.735s] -- Detecting CXX compiler ABI info
+[2.863s] -- Detecting CXX compiler ABI info - done
+[2.866s] -- Check for working CXX compiler: /Users/howardkang/miniconda3/envs/ros2/bin/arm64-apple-darwin20.0.0-clang++ - skipped
+[2.867s] -- Detecting CXX compile features
+[2.867s] -- Detecting CXX compile features - done
+[3.204s] -- Found Python3: /Users/howardkang/miniconda3/envs/ros2/bin/python3.10 (found version "3.10.13") found components: Interpreter 
+[3.240s] -- Found ament_cmake: 1.3.3 (/Users/howardkang/miniconda3/envs/ros2/share/ament_cmake/cmake)
+[3.306s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.435s] -- Found std_msgs: 4.2.3 (/Users/howardkang/miniconda3/envs/ros2/share/std_msgs/cmake)
+[3.530s] -- Found rosidl_generator_c: 3.1.4 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_generator_c/cmake)
+[3.548s] -- Found rosidl_adapter: 3.1.4 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_adapter/cmake)
+[3.570s] -- Found rosidl_generator_cpp: 3.1.4 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_generator_cpp/cmake)
+[3.597s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.637s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.702s] -- Found rosidl_default_generators: 1.2.0 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_default_generators/cmake)
+[3.867s] -- Found ament_cmake_ros: 0.10.0 (/Users/howardkang/miniconda3/envs/ros2/share/ament_cmake_ros/cmake)
+[4.037s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.090s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.104s] -- Found PythonInterp: /Users/howardkang/miniconda3/envs/ros2/bin/python3 (found suitable version "3.10.13", minimum required is "3.6") 
+[4.112s] -- Found python_cmake_module: 0.10.0 (/Users/howardkang/miniconda3/envs/ros2/share/python_cmake_module/cmake)
+[4.142s] -- Using PythonExtra_INCLUDE_DIRS: /Users/howardkang/miniconda3/envs/ros2/include/python3.10;/Users/howardkang/miniconda3/envs/ros2/include/python3.10
+[4.174s] -- Using PythonExtra_LIBRARIES: /Users/howardkang/miniconda3/envs/ros2/lib/libpython3.10.dylib
+[4.190s] -- Found PythonExtra: .so  
+[5.084s] -- Found Python3: /Users/howardkang/miniconda3/envs/ros2/bin/python3.10 (found version "3.10.13") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[5.132s] -- Found ament_lint_auto: 0.12.5 (/Users/howardkang/miniconda3/envs/ros2/share/ament_lint_auto/cmake)
+[5.209s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.209s] -- Added test 'lint_cmake' to check CMake code style
+[5.210s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.212s] -- Added test 'xmllint' to check XML markup files
+[5.216s] -- Configuring done (5.1s)
+[5.291s] -- Generating done (0.1s)
+[5.297s] -- Build files have been written to: /Users/howardkang/auto_car/build/yolobot_algo
+[5.301s] Invoked command in '/Users/howardkang/auto_car/build/yolobot_algo' returned '0': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake /Users/howardkang/auto_car/src/yolobot_algo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/Users/howardkang/auto_car/install/yolobot_algo
+[5.302s] Invoking command in '/Users/howardkang/auto_car/build/yolobot_algo': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/yolobot_algo -- -j8 -l8
+[5.352s] [  2%] Generating C code for ROS interfaces
+[5.366s] [  5%] Generating C++ code for ROS interfaces
+[5.375s] [  5%] Built target ament_cmake_python_symlink_yolobot_algo
+[5.641s] [  5%] Built target yolobot_algo__cpp
+[5.661s] [  7%] Generating C++ introspection for ROS interfaces
+[5.662s] [ 10%] Generating C++ type support for eProsima Fast-RTPS
+[5.664s] [ 12%] Generating C++ type support dispatch for ROS interfaces
+[5.675s] [ 15%] Building C object CMakeFiles/yolobot_algo__rosidl_generator_c.dir/rosidl_generator_c/yolobot_algo/msg/detail/inference_result__functions.c.o
+[5.676s] [ 17%] Building C object CMakeFiles/yolobot_algo__rosidl_generator_c.dir/rosidl_generator_c/yolobot_algo/msg/detail/yolov8_inference__functions.c.o
+[5.844s] [ 20%] Linking C shared library libyolobot_algo__rosidl_generator_c.dylib
+[5.900s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[5.937s] running egg_info
+[5.937s] creating yolobot_algo.egg-info
+[5.942s] [ 20%] Built target yolobot_algo__rosidl_generator_c
+[5.962s] [ 23%] Building CXX object CMakeFiles/yolobot_algo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolobot_algo/msg/yolov8_inference__type_support.cpp.o
+[5.963s] [ 25%] Building CXX object CMakeFiles/yolobot_algo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolobot_algo/msg/inference_result__type_support.cpp.o
+[5.967s] [ 28%] Generating C type support dispatch for ROS interfaces
+[5.978s] [ 30%] Generating C type support for eProsima Fast-RTPS
+[5.981s] [ 33%] Generating C introspection for ROS interfaces
+[5.987s] [ 35%] Building CXX object CMakeFiles/yolobot_algo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolobot_algo/msg/detail/inference_result__type_support.cpp.o
+[5.991s] writing yolobot_algo.egg-info/PKG-INFO
+[6.039s] writing dependency_links to yolobot_algo.egg-info/dependency_links.txt
+[6.069s] [ 38%] Building CXX object CMakeFiles/yolobot_algo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolobot_algo/msg/detail/dds_fastrtps/inference_result__type_support.cpp.o
+[6.362s] [ 41%] Building CXX object CMakeFiles/yolobot_algo__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolobot_algo/msg/inference_result__type_support.cpp.o
+[6.421s] writing top-level names to yolobot_algo.egg-info/top_level.txt
+[6.424s] writing manifest file 'yolobot_algo.egg-info/SOURCES.txt'
+[6.424s] [ 43%] Building C object CMakeFiles/yolobot_algo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolobot_algo/msg/detail/inference_result__type_support.c.o
+[6.452s] [ 46%] Building CXX object CMakeFiles/yolobot_algo__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolobot_algo/msg/yolov8_inference__type_support.cpp.o
+[6.456s] [ 48%] Building CXX object CMakeFiles/yolobot_algo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolobot_algo/msg/detail/inference_result__type_support_c.cpp.o
+[6.528s] [ 51%] Linking CXX shared library libyolobot_algo__rosidl_typesupport_c.dylib
+[6.529s] [ 53%] Building C object CMakeFiles/yolobot_algo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolobot_algo/msg/detail/yolov8_inference__type_support.c.o
+[6.530s] reading manifest file 'yolobot_algo.egg-info/SOURCES.txt'
+[6.532s] writing manifest file 'yolobot_algo.egg-info/SOURCES.txt'
+[6.587s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[6.599s] [ 53%] Built target ament_cmake_python_build_yolobot_algo_egg
+[6.602s] [ 56%] Linking C shared library libyolobot_algo__rosidl_typesupport_introspection_c.dylib
+[6.618s] [ 58%] Building CXX object CMakeFiles/yolobot_algo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolobot_algo/msg/detail/yolov8_inference__type_support_c.cpp.o
+[6.623s] [ 58%] Built target yolobot_algo__rosidl_typesupport_c
+[6.641s] [ 61%] Building CXX object CMakeFiles/yolobot_algo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolobot_algo/msg/detail/dds_fastrtps/yolov8_inference__type_support.cpp.o
+[6.650s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[6.703s] [ 61%] Built target yolobot_algo__rosidl_typesupport_introspection_c
+[6.738s] [ 64%] Building CXX object CMakeFiles/yolobot_algo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolobot_algo/msg/detail/yolov8_inference__type_support.cpp.o
+[6.756s] [ 66%] Linking CXX shared library libyolobot_algo__rosidl_typesupport_cpp.dylib
+[6.801s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[6.852s] [ 66%] Built target yolobot_algo__rosidl_typesupport_cpp
+[7.159s] [ 69%] Linking CXX shared library libyolobot_algo__rosidl_typesupport_fastrtps_c.dylib
+[7.191s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[7.211s] [ 71%] Linking CXX shared library libyolobot_algo__rosidl_typesupport_introspection_cpp.dylib
+[7.225s] [ 71%] Built target yolobot_algo__rosidl_typesupport_fastrtps_c
+[7.243s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[7.252s] [ 74%] Linking CXX shared library libyolobot_algo__rosidl_typesupport_fastrtps_cpp.dylib
+[7.275s] [ 74%] Built target yolobot_algo__rosidl_typesupport_introspection_cpp
+[7.285s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[7.316s] [ 74%] Built target yolobot_algo__rosidl_typesupport_fastrtps_cpp
+[7.342s] [ 74%] Built target yolobot_algo
+[7.368s] [ 76%] Generating Python code for ROS interfaces
+[7.615s] [ 76%] Built target yolobot_algo__py
+[7.642s] [ 82%] Building C object CMakeFiles/yolobot_algo__rosidl_generator_py.dir/rosidl_generator_py/yolobot_algo/msg/_yolov8_inference_s.c.o
+[7.642s] [ 82%] Building C object CMakeFiles/yolobot_algo__rosidl_generator_py.dir/rosidl_generator_py/yolobot_algo/msg/_inference_result_s.c.o
+[7.753s] [ 84%] Linking C shared library rosidl_generator_py/yolobot_algo/libyolobot_algo__rosidl_generator_py.dylib
+[7.785s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[7.815s] [ 84%] Built target yolobot_algo__rosidl_generator_py
+[7.847s] [ 92%] Building C object CMakeFiles/yolobot_algo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolobot_algo/_yolobot_algo_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[7.847s] [ 92%] Building C object CMakeFiles/yolobot_algo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolobot_algo/_yolobot_algo_s.ep.rosidl_typesupport_c.c.o
+[7.847s] [ 92%] Building C object CMakeFiles/yolobot_algo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolobot_algo/_yolobot_algo_s.ep.rosidl_typesupport_introspection_c.c.o
+[7.930s] [ 97%] Linking C shared library rosidl_generator_py/yolobot_algo/yolobot_algo_s__rosidl_typesupport_c.cpython-310-darwin.so
+[7.930s] [ 97%] Linking C shared library rosidl_generator_py/yolobot_algo/yolobot_algo_s__rosidl_typesupport_fastrtps_c.cpython-310-darwin.so
+[7.938s] [100%] Linking C shared library rosidl_generator_py/yolobot_algo/yolobot_algo_s__rosidl_typesupport_introspection_c.cpython-310-darwin.so
+[7.965s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[7.966s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[7.970s] ld: warning: -pie being ignored. It is only used when linking a main executable
+[8.000s] [100%] Built target yolobot_algo__rosidl_typesupport_fastrtps_c__pyext
+[8.000s] [100%] Built target yolobot_algo__rosidl_typesupport_c__pyext
+[8.002s] [100%] Built target yolobot_algo__rosidl_typesupport_introspection_c__pyext
+[8.014s] Invoked command in '/Users/howardkang/auto_car/build/yolobot_algo' returned '0': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/yolobot_algo -- -j8 -l8
+[8.201s] Invoking command in '/Users/howardkang/auto_car/build/yolobot_algo': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --install /Users/howardkang/auto_car/build/yolobot_algo
+[8.211s] -- Install configuration: ""
+[8.212s] -- Execute custom install script
+[8.212s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/share/ament_index/resource_index/rosidl_interfaces/yolobot_algo
+[8.223s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/inference_result__functions.h
+[8.234s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/inference_result__struct.h
+[8.244s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/inference_result__type_support.h
+[8.255s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/yolov8_inference__functions.h
+[8.266s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/yolov8_inference__struct.h
+[8.277s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/yolov8_inference__type_support.h
+[8.287s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/inference_result.h
+[8.298s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/rosidl_generator_c__visibility_control.h
+[8.309s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/yolov8_inference.h
+[8.319s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h
+[8.330s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_c.h
+[8.341s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.352s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/inference_result__builder.hpp
+[8.362s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/inference_result__struct.hpp
+[8.373s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/inference_result__traits.hpp
+[8.382s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/yolov8_inference__builder.hpp
+[8.392s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/yolov8_inference__struct.hpp
+[8.401s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/yolov8_inference__traits.hpp
+[8.410s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/inference_result.hpp
+[8.420s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/yolov8_inference.hpp
+[8.429s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/inference_result__rosidl_typesupport_fastrtps_cpp.hpp
+[8.438s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp
+[8.448s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.457s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/inference_result__rosidl_typesupport_introspection_c.h
+[8.467s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/yolov8_inference__rosidl_typesupport_introspection_c.h
+[8.477s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.487s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp
+[8.496s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/yolov8_inference__rosidl_typesupport_introspection_cpp.hpp
+[8.506s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/environment/pythonpath.sh
+[8.516s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/environment/pythonpath.dsv
+[8.525s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo-0.0.0-py3.10.egg-info/PKG-INFO
+[8.535s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.545s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.554s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo-0.0.0-py3.10.egg-info/top_level.txt
+[8.565s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/__init__.py
+[8.574s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/_yolobot_algo_s.ep.rosidl_typesupport_c.c
+[8.584s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/_yolobot_algo_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.594s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/_yolobot_algo_s.ep.rosidl_typesupport_introspection_c.c
+[8.603s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/libyolobot_algo__rosidl_generator_py.dylib
+[8.613s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/msg/__init__.py
+[8.623s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/msg/_inference_result.py
+[8.632s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/msg/_inference_result_s.c
+[8.642s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/msg/_yolov8_inference.py
+[8.651s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/msg/_yolov8_inference_s.c
+[8.661s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/yolobot_algo_s__rosidl_typesupport_c.cpython-310-darwin.so
+[8.671s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/yolobot_algo_s__rosidl_typesupport_fastrtps_c.cpython-310-darwin.so
+[8.681s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/yolobot_algo_s__rosidl_typesupport_introspection_c.cpython-310-darwin.so
+[8.691s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/yolobot_algo_s__rosidl_typesupport_fastrtps_c.cpython-310-darwin.so
+[8.691s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/yolobot_algo_s__rosidl_typesupport_introspection_c.cpython-310-darwin.so
+[8.691s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/yolobot_algo_s__rosidl_typesupport_c.cpython-310-darwin.so
+[8.691s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/msg/InferenceResult.idl
+[8.701s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/msg/Yolov8Inference.idl
+[8.711s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/msg/InferenceResult.msg
+[8.720s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/msg/Yolov8Inference.msg
+[8.730s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/launch/yolov8.launch.py
+[8.740s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[8.740s]   ament_cmake_symlink_install_directory() can't find
+[8.740s]   '/Users/howardkang/auto_car/src/yolobot_algo/worlds'
+[8.740s] Call Stack (most recent call first):
+[8.740s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:368 (ament_cmake_symlink_install_directory)
+[8.740s]   cmake_install.cmake:41 (include)
+[8.740s] 
+[8.740s] 
+[8.740s] Invoked command in '/Users/howardkang/auto_car/build/yolobot_algo' returned '1': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --install /Users/howardkang/auto_car/build/yolobot_algo

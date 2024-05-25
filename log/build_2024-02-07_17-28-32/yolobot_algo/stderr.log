@@ -1,0 +1,19 @@
+ld: warning: -pie being ignored. It is only used when linking a main executable
+ld: warning: -pie being ignored. It is only used when linking a main executable
+ld: warning: -pie being ignored. It is only used when linking a main executable
+ld: warning: -pie being ignored. It is only used when linking a main executable
+ld: warning: -pie being ignored. It is only used when linking a main executable
+ld: warning: -pie being ignored. It is only used when linking a main executable
+ld: warning: -pie being ignored. It is only used when linking a main executable
+ld: warning: -pie being ignored. It is only used when linking a main executable
+ld: warning: -pie being ignored. It is only used when linking a main executable
+ld: warning: -pie being ignored. It is only used when linking a main executable
+ld: warning: -pie being ignored. It is only used when linking a main executable
+CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/Users/howardkang/auto_car/src/yolobot_algo/worlds'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:368 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:41 (include)
+
+

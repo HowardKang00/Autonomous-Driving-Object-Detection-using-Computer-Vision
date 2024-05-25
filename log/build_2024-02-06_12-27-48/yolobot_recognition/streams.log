@@ -1,0 +1,25 @@
+[0.089s] Invoking command in '/Users/howardkang/auto_car/build/yolobot_recognition': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake /Users/howardkang/auto_car/src/yolobot/src/yolobot_recognition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/Users/howardkang/auto_car/install/yolobot_recognition
+[3.607s] -- The C compiler identification is Clang 16.0.1
+[3.717s] -- The CXX compiler identification is Clang 16.0.1
+[3.725s] -- Detecting C compiler ABI info
+[3.896s] -- Detecting C compiler ABI info - done
+[3.899s] -- Check for working C compiler: /Users/howardkang/miniconda3/envs/ros2/bin/arm64-apple-darwin20.0.0-clang - skipped
+[3.900s] -- Detecting C compile features
+[3.900s] -- Detecting C compile features - done
+[3.906s] -- Detecting CXX compiler ABI info
+[4.095s] -- Detecting CXX compiler ABI info - done
+[4.101s] -- Check for working CXX compiler: /Users/howardkang/miniconda3/envs/ros2/bin/arm64-apple-darwin20.0.0-clang++ - skipped
+[4.101s] -- Detecting CXX compile features
+[4.101s] -- Detecting CXX compile features - done
+[4.134s] -- Found ament_cmake: 1.3.3 (/Users/howardkang/miniconda3/envs/ros2/share/ament_cmake/cmake)
+[4.637s] -- Found Python3: /opt/homebrew/Frameworks/Python.framework/Versions/3.12/bin/python3.12 (found version "3.12.1") found components: Interpreter 
+[4.703s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.012s] -- Found ament_lint_auto: 0.12.5 (/Users/howardkang/miniconda3/envs/ros2/share/ament_lint_auto/cmake)
+[5.290s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.294s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.296s] -- Added test 'lint_cmake' to check CMake code style
+[5.297s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.299s] -- Added test 'xmllint' to check XML markup files
+[5.302s] -- Configuring done (5.2s)
+[5.318s] -- Generating done (0.0s)
+[5.320s] -- Build files have been written to: /Users/howardkang/auto_car/build/yolobot_recognition

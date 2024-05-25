@@ -1,0 +1,8 @@
+CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+  ament_cmake_symlink_install_programs() can't find
+  '/Users/howardkang/auto_car/src/yolobot_algo/scripts/my_model.weights.pt'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:380 (ament_cmake_symlink_install_programs)
+  cmake_install.cmake:41 (include)
+
+

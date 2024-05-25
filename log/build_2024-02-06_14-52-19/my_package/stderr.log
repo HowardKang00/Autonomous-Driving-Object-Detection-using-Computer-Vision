@@ -1,0 +1,9 @@
+CMake Error at /Users/howardkang/miniconda3/envs/ros2/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:213 (add_custom_target):
+  add_custom_target called with invalid target name
+  "msg/InferenceResult.msg".  Target names may not contain a slash.  Use
+  ADD_CUSTOM_COMMAND to generate files.
+Call Stack (most recent call first):
+  CMakeLists.txt:12 (rosidl_generate_interfaces)
+
+
+make: *** [Makefile:226: cmake_check_build_system] Error 1

@@ -1,0 +1,9 @@
+[0.043s] Invoking command in '/Users/howardkang/auto_car/build/yolov8_interface': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/yolov8_interface -- -j8 -l8
+[0.128s] failed to create symbolic link '/Users/howardkang/auto_car/build/yolov8_interface/ament_cmake_python/yolov8_interface/yolov8_interface' because existing path cannot be removed: Operation not permitted
+[0.129s] make[2]: *** [CMakeFiles/ament_cmake_python_symlink_yolov8_interface.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_yolov8_interface] Error 1
+[0.130s] make[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_yolov8_interface.dir/all] Error 2
+[0.130s] make[1]: *** Waiting for unfinished jobs....
+[0.130s] [  2%] Built target yolov8_interface__cpp
+[0.148s] [ 12%] Built target yolov8_interface__rosidl_generator_c
+[0.149s] make: *** [Makefile:146: all] Error 2
+[0.154s] Invoked command in '/Users/howardkang/auto_car/build/yolov8_interface' returned '2': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/yolov8_interface -- -j8 -l8

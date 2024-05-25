@@ -1,0 +1,25 @@
+[0.177s] Invoking command in '/Users/howardkang/auto_car/build/yolobot_control': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake /Users/howardkang/auto_car/src/yolobot/src/yolobot_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/Users/howardkang/auto_car/install/yolobot_control
+[3.704s] -- The C compiler identification is Clang 16.0.1
+[3.822s] -- The CXX compiler identification is Clang 16.0.1
+[3.830s] -- Detecting C compiler ABI info
+[4.021s] -- Detecting C compiler ABI info - done
+[4.024s] -- Check for working C compiler: /Users/howardkang/miniconda3/envs/ros2/bin/arm64-apple-darwin20.0.0-clang - skipped
+[4.025s] -- Detecting C compile features
+[4.025s] -- Detecting C compile features - done
+[4.030s] -- Detecting CXX compiler ABI info
+[4.205s] -- Detecting CXX compiler ABI info - done
+[4.211s] -- Check for working CXX compiler: /Users/howardkang/miniconda3/envs/ros2/bin/arm64-apple-darwin20.0.0-clang++ - skipped
+[4.211s] -- Detecting CXX compile features
+[4.211s] -- Detecting CXX compile features - done
+[4.234s] -- Found ament_cmake: 1.3.3 (/Users/howardkang/miniconda3/envs/ros2/share/ament_cmake/cmake)
+[4.758s] -- Found Python3: /opt/homebrew/Frameworks/Python.framework/Versions/3.12/bin/python3.12 (found version "3.12.1") found components: Interpreter 
+[4.829s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.148s] -- Found ament_lint_auto: 0.12.5 (/Users/howardkang/miniconda3/envs/ros2/share/ament_lint_auto/cmake)
+[5.432s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.435s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.435s] -- Added test 'lint_cmake' to check CMake code style
+[5.436s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.437s] -- Added test 'xmllint' to check XML markup files
+[5.439s] -- Configuring done (5.2s)
+[5.452s] -- Generating done (0.0s)
+[5.455s] -- Build files have been written to: /Users/howardkang/auto_car/build/yolobot_control

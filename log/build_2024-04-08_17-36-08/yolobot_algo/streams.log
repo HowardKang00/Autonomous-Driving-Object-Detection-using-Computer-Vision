@@ -1,0 +1,167 @@
+[0.045s] Invoking command in '/Users/howardkang/auto_car/build/yolobot_algo': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/yolobot_algo -- -j8 -l8
+[0.173s] [  2%] Built target yolobot_algo__cpp
+[0.197s] [ 12%] Built target yolobot_algo__rosidl_generator_c
+[0.222s] [ 12%] Built target ament_cmake_python_symlink_yolobot_algo
+[0.324s] [ 28%] Built target yolobot_algo__rosidl_typesupport_c
+[0.335s] [ 38%] Built target yolobot_algo__rosidl_typesupport_fastrtps_cpp
+[0.337s] [ 43%] Built target yolobot_algo__rosidl_typesupport_introspection_c
+[0.337s] [ 53%] Built target yolobot_algo__rosidl_typesupport_introspection_cpp
+[0.338s] [ 64%] Built target yolobot_algo__rosidl_typesupport_cpp
+[0.341s] [ 74%] Built target yolobot_algo__rosidl_typesupport_fastrtps_c
+[0.385s] [ 74%] Built target yolobot_algo
+[0.423s] [ 76%] Built target yolobot_algo__py
+[0.487s] [ 84%] Built target yolobot_algo__rosidl_generator_py
+[0.557s] [ 89%] Built target yolobot_algo__rosidl_typesupport_introspection_c__pyext
+[0.559s] [ 94%] Built target yolobot_algo__rosidl_typesupport_fastrtps_c__pyext
+[0.576s] [100%] Built target yolobot_algo__rosidl_typesupport_c__pyext
+[0.789s] running egg_info
+[0.829s] writing yolobot_algo.egg-info/PKG-INFO
+[0.858s] writing dependency_links to yolobot_algo.egg-info/dependency_links.txt
+[1.033s] writing top-level names to yolobot_algo.egg-info/top_level.txt
+[1.104s] reading manifest file 'yolobot_algo.egg-info/SOURCES.txt'
+[1.105s] writing manifest file 'yolobot_algo.egg-info/SOURCES.txt'
+[1.152s] [100%] Built target ament_cmake_python_build_yolobot_algo_egg
+[1.190s] Invoked command in '/Users/howardkang/auto_car/build/yolobot_algo' returned '0': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/yolobot_algo -- -j8 -l8
+[1.558s] Invoking command in '/Users/howardkang/auto_car/build/yolobot_algo': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --install /Users/howardkang/auto_car/build/yolobot_algo
+[1.576s] -- Install configuration: ""
+[1.577s] -- Execute custom install script
+[1.577s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/ament_index/resource_index/rosidl_interfaces/yolobot_algo
+[1.578s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/inference_result__functions.h
+[1.578s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/inference_result__struct.h
+[1.578s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/inference_result__type_support.h
+[1.578s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/yolov8_inference__functions.h
+[1.578s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/yolov8_inference__struct.h
+[1.579s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/yolov8_inference__type_support.h
+[1.579s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/inference_result.h
+[1.579s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/rosidl_generator_c__visibility_control.h
+[1.579s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/yolov8_inference.h
+[1.580s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h
+[1.580s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_c.h
+[1.581s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.582s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/inference_result__builder.hpp
+[1.582s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/inference_result__struct.hpp
+[1.582s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/inference_result__traits.hpp
+[1.582s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/yolov8_inference__builder.hpp
+[1.582s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/yolov8_inference__struct.hpp
+[1.583s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/yolov8_inference__traits.hpp
+[1.583s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/inference_result.hpp
+[1.583s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/yolov8_inference.hpp
+[1.583s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/inference_result__rosidl_typesupport_fastrtps_cpp.hpp
+[1.583s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp
+[1.583s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.584s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/inference_result__rosidl_typesupport_introspection_c.h
+[1.584s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/yolov8_inference__rosidl_typesupport_introspection_c.h
+[1.584s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.585s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp
+[1.585s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/include/yolobot_algo/yolobot_algo/msg/detail/yolov8_inference__rosidl_typesupport_introspection_cpp.hpp
+[1.585s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/environment/pythonpath.sh
+[1.585s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/environment/pythonpath.dsv
+[1.585s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo-0.0.0-py3.10.egg-info/PKG-INFO
+[1.586s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.586s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.587s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo-0.0.0-py3.10.egg-info/top_level.txt
+[1.588s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/__init__.py
+[1.588s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/_yolobot_algo_s.ep.rosidl_typesupport_c.c
+[1.588s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/_yolobot_algo_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.588s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/_yolobot_algo_s.ep.rosidl_typesupport_introspection_c.c
+[1.588s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/libyolobot_algo__rosidl_generator_py.dylib
+[1.589s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/msg/__init__.py
+[1.589s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/msg/_inference_result.py
+[1.589s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/msg/_inference_result_s.c
+[1.590s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/msg/_yolov8_inference.py
+[1.590s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/msg/_yolov8_inference_s.c
+[1.591s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/yolobot_algo_s__rosidl_typesupport_c.cpython-310-darwin.so
+[1.591s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/yolobot_algo_s__rosidl_typesupport_fastrtps_c.cpython-310-darwin.so
+[1.591s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/yolobot_algo_s__rosidl_typesupport_introspection_c.cpython-310-darwin.so
+[1.592s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/yolobot_algo_s__rosidl_typesupport_fastrtps_c.cpython-310-darwin.so
+[1.592s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/yolobot_algo_s__rosidl_typesupport_introspection_c.cpython-310-darwin.so
+[1.592s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/python3.10/site-packages/yolobot_algo/yolobot_algo_s__rosidl_typesupport_c.cpython-310-darwin.so
+[1.592s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/msg/InferenceResult.idl
+[1.592s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/msg/Yolov8Inference.idl
+[1.593s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/msg/InferenceResult.msg
+[1.593s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/msg/Yolov8Inference.msg
+[1.594s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/launch/yolov8.launch.py
+[1.594s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/scripts/.DS_Store
+[1.594s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/scripts/.dockerignore
+[1.594s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/scripts/.gitattributes
+[1.595s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/scripts/.gitignore
+[1.595s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/scripts/yolov8_ros2_pt.py
+[1.595s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/scripts/yolov8_ros2_subscriber.py
+[1.595s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/scripts/yolov8n.pt
+[1.595s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/scripts/~/.DS_Store
+[1.595s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/scripts/~/yolobot/.DS_Store
+[1.596s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/scripts/~/yolobot/src/.DS_Store
+[1.596s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/scripts/~/yolobot/src/yolobot_recognition/.DS_Store
+[1.596s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/scripts/~/yolobot/src/yolobot_recognition/scripts/yolov8n.pt
+[1.596s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/msg/InferenceResult.msg
+[1.596s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/msg/Yolov8Inference.msg
+[1.596s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/yolobot_algo/launch/yolov8.launch.py
+[1.596s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/yolobot_algo/scripts/.DS_Store
+[1.597s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/yolobot_algo/scripts/.dockerignore
+[1.597s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/yolobot_algo/scripts/.gitattributes
+[1.597s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/yolobot_algo/scripts/.gitignore
+[1.597s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/yolobot_algo/scripts/yolov8_ros2_pt.py
+[1.597s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/yolobot_algo/scripts/yolov8_ros2_subscriber.py
+[1.597s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/yolobot_algo/scripts/yolov8n.pt
+[1.597s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/yolobot_algo/scripts/~/.DS_Store
+[1.597s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/yolobot_algo/scripts/~/yolobot/.DS_Store
+[1.597s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/yolobot_algo/scripts/~/yolobot/src/.DS_Store
+[1.598s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/yolobot_algo/scripts/~/yolobot/src/yolobot_recognition/.DS_Store
+[1.598s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/yolobot_algo/scripts/~/yolobot/src/yolobot_recognition/scripts/yolov8n.pt
+[1.598s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/yolobot_algo/msg/InferenceResult.msg
+[1.598s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/yolobot_algo/msg/Yolov8Inference.msg
+[1.598s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/lib/yolobot_algo/yolov8_ros2_pt.py
+[1.598s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/ament_index/resource_index/package_run_dependencies/yolobot_algo
+[1.598s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/ament_index/resource_index/parent_prefix_path/yolobot_algo
+[1.599s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/environment/ament_prefix_path.sh
+[1.599s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/environment/ament_prefix_path.dsv
+[1.599s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/environment/path.sh
+[1.599s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/environment/path.dsv
+[1.599s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/local_setup.bash
+[1.599s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/local_setup.sh
+[1.599s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/local_setup.zsh
+[1.599s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/local_setup.dsv
+[1.599s] -- Symlinking: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/package.dsv
+[1.613s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/ament_index/resource_index/packages/yolobot_algo
+[1.613s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/rosidl_cmake-extras.cmake
+[1.613s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.614s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.614s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/ament_cmake_export_libraries-extras.cmake
+[1.614s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/ament_cmake_export_targets-extras.cmake
+[1.614s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.615s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.615s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/yolobot_algoConfig.cmake
+[1.615s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/yolobot_algoConfig-version.cmake
+[1.616s] -- Up-to-date symlink: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/package.xml
+[1.616s] -- Up-to-date: /Users/howardkang/auto_car/install/yolobot_algo/lib/libyolobot_algo__rosidl_generator_c.dylib
+[1.616s] -- Installing: /Users/howardkang/auto_car/install/yolobot_algo/lib/libyolobot_algo__rosidl_typesupport_fastrtps_c.dylib
+[1.624s] [cctools-port]: generating fake signature for '/Users/howardkang/auto_car/install/yolobot_algo/lib/libyolobot_algo__rosidl_typesupport_fastrtps_c.dylib'
+[1.641s] -- Up-to-date: /Users/howardkang/auto_car/install/yolobot_algo/lib/libyolobot_algo__rosidl_typesupport_fastrtps_cpp.dylib
+[1.642s] -- Installing: /Users/howardkang/auto_car/install/yolobot_algo/lib/libyolobot_algo__rosidl_typesupport_introspection_c.dylib
+[1.646s] [cctools-port]: generating fake signature for '/Users/howardkang/auto_car/install/yolobot_algo/lib/libyolobot_algo__rosidl_typesupport_introspection_c.dylib'
+[1.660s] -- Installing: /Users/howardkang/auto_car/install/yolobot_algo/lib/libyolobot_algo__rosidl_typesupport_c.dylib
+[1.665s] [cctools-port]: generating fake signature for '/Users/howardkang/auto_car/install/yolobot_algo/lib/libyolobot_algo__rosidl_typesupport_c.dylib'
+[1.678s] -- Up-to-date: /Users/howardkang/auto_car/install/yolobot_algo/lib/libyolobot_algo__rosidl_typesupport_introspection_cpp.dylib
+[1.678s] -- Up-to-date: /Users/howardkang/auto_car/install/yolobot_algo/lib/libyolobot_algo__rosidl_typesupport_cpp.dylib
+[1.718s] Listing 'lib/python3.10/site-packages/yolobot_algo'...
+[1.718s] Can't list 'lib/python3.10/site-packages/yolobot_algo'
+[1.719s] -- Installing: /Users/howardkang/auto_car/install/yolobot_algo/lib/libyolobot_algo__rosidl_generator_py.dylib
+[1.724s] [cctools-port]: generating fake signature for '/Users/howardkang/auto_car/install/yolobot_algo/lib/libyolobot_algo__rosidl_generator_py.dylib'
+[1.745s] -- Up-to-date: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/export_yolobot_algo__rosidl_generator_cExport.cmake
+[1.745s] -- Up-to-date: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/export_yolobot_algo__rosidl_generator_cExport-noconfig.cmake
+[1.746s] -- Up-to-date: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/export_yolobot_algo__rosidl_typesupport_fastrtps_cExport.cmake
+[1.746s] -- Up-to-date: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/export_yolobot_algo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.747s] -- Up-to-date: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/export_yolobot_algo__rosidl_generator_cppExport.cmake
+[1.747s] -- Up-to-date: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/export_yolobot_algo__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.747s] -- Up-to-date: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/export_yolobot_algo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.751s] -- Up-to-date: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/yolobot_algo__rosidl_typesupport_introspection_cExport.cmake
+[1.751s] -- Up-to-date: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/yolobot_algo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.753s] -- Up-to-date: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/yolobot_algo__rosidl_typesupport_cExport.cmake
+[1.753s] -- Up-to-date: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/yolobot_algo__rosidl_typesupport_cExport-noconfig.cmake
+[1.753s] -- Up-to-date: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/yolobot_algo__rosidl_typesupport_introspection_cppExport.cmake
+[1.753s] -- Up-to-date: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/yolobot_algo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.753s] -- Up-to-date: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/yolobot_algo__rosidl_typesupport_cppExport.cmake
+[1.754s] -- Up-to-date: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/yolobot_algo__rosidl_typesupport_cppExport-noconfig.cmake
+[1.755s] -- Up-to-date: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/export_yolobot_algo__rosidl_generator_pyExport.cmake
+[1.755s] -- Up-to-date: /Users/howardkang/auto_car/install/yolobot_algo/share/yolobot_algo/cmake/export_yolobot_algo__rosidl_generator_pyExport-noconfig.cmake
+[1.762s] Invoked command in '/Users/howardkang/auto_car/build/yolobot_algo' returned '0': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --install /Users/howardkang/auto_car/build/yolobot_algo

@@ -1,0 +1,23 @@
+[0.050s] Invoking command in '/Users/howardkang/auto_car/build/yolobot_algo': CONDA_PROMPT_MODIFIER=(ros2) SHLVL=2 _=/Users/howardkang/miniconda3/envs/ros2/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /Users/howardkang/miniconda3/envs/ros2/bin/cmake --build /Users/howardkang/auto_car/build/yolobot_algo -- -j8 -l8
+[0.156s] [ 10%] Built target yolobot_algo__rosidl_generator_c
+[0.180s] [ 10%] Built target ament_cmake_python_symlink_yolobot_algo
+[0.180s] [ 12%] Built target yolobot_algo__cpp
+[0.237s] [ 23%] Built target yolobot_algo__rosidl_typesupport_fastrtps_c
+[0.247s] [ 33%] Built target yolobot_algo__rosidl_typesupport_introspection_c
+[0.256s] [ 43%] Built target yolobot_algo__rosidl_typesupport_c
+[0.263s] [ 58%] Built target yolobot_algo__rosidl_typesupport_cpp
+[0.263s] [ 74%] Built target yolobot_algo__rosidl_typesupport_fastrtps_cpp
+[0.263s] [ 74%] Built target yolobot_algo__rosidl_typesupport_introspection_cpp
+[0.302s] [ 74%] Built target yolobot_algo
+[0.330s] [ 76%] Built target yolobot_algo__py
+[0.364s] [ 84%] Built target yolobot_algo__rosidl_generator_py
+[0.413s] [ 89%] Built target yolobot_algo__rosidl_typesupport_introspection_c__pyext
+[0.413s] [ 94%] Built target yolobot_algo__rosidl_typesupport_c__pyext
+[0.426s] [100%] Built target yolobot_algo__rosidl_typesupport_fastrtps_c__pyext
+[0.690s] running egg_info
+[0.732s] writing yolobot_algo.egg-info/PKG-INFO
+[0.762s] writing dependency_links to yolobot_algo.egg-info/dependency_links.txt
+[0.940s] writing top-level names to yolobot_algo.egg-info/top_level.txt
+[1.007s] reading manifest file 'yolobot_algo.egg-info/SOURCES.txt'
+[1.008s] writing manifest file 'yolobot_algo.egg-info/SOURCES.txt'
+[1.045s] [100%] Built target ament_cmake_python_build_yolobot_algo_egg

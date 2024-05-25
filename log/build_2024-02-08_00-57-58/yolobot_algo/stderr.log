@@ -1,0 +1,15 @@
+CMake Deprecation Warning at /Users/howardkang/miniconda3/envs/ros2/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:20 (rosidl_target_interfaces)
+
+
+CMake Error at /Users/howardkang/miniconda3/envs/ros2/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:38 (message):
+  rosidl_target_interfaces() the first argument 'my_node' must be a valid
+  target name
+Call Stack (most recent call first):
+  CMakeLists.txt:20 (rosidl_target_interfaces)
+
+
+make: *** [Makefile:963: cmake_check_build_system] Error 1

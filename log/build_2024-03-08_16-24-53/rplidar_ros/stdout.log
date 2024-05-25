@@ -1,0 +1,78 @@
+-- The C compiler identification is Clang 16.0.1
+-- The CXX compiler identification is Clang 16.0.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/howardkang/miniconda3/envs/ros2/bin/arm64-apple-darwin20.0.0-clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/howardkang/miniconda3/envs/ros2/bin/arm64-apple-darwin20.0.0-clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.3 (/Users/howardkang/miniconda3/envs/ros2/share/ament_cmake_auto/cmake)
+-- Found Python3: /opt/homebrew/Frameworks/Python.framework/Versions/3.12/bin/python3.12 (found version "3.12.1") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_ros: 0.10.0 (/Users/howardkang/miniconda3/envs/ros2/share/ament_cmake_ros/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/Users/howardkang/miniconda3/envs/ros2/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.2.5
+-- Found rmw_implementation_cmake: 6.1.1 (/Users/howardkang/miniconda3/envs/ros2/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/Users/howardkang/miniconda3/envs/ros2/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done (3.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/howardkang/auto_car/build/rplidar_ros
+[ 11%] Building CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/macOS/net_socket.cpp.o
+[ 22%] Building CXX object CMakeFiles/rplidar_composition_node.dir/src/rplidar_node.cpp.o
+[ 33%] Building CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/rplidar_driver.cpp.o
+[ 44%] Building CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/macOS/net_serial.cpp.o
+[ 55%] Building CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/macOS/timer.cpp.o
+[ 66%] Building CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/hal/thread.cpp.o
+[ 77%] Linking CXX shared library librplidar_composition_node.dylib
+[ 77%] Built target rplidar_composition_node
+[ 88%] Building CXX object CMakeFiles/rplidar_composition.dir/src/standalone_rplidar.cpp.o
+[100%] Linking CXX executable rplidar_composition
+[100%] Built target rplidar_composition
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/lib/librplidar_composition_node.dylib
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/include/rplidar_node.hpp
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/include/visibility.h
+-- Up-to-date symlink: /Users/howardkang/auto_car/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/package.dsv
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+-- Symlinking: /Users/howardkang/auto_car/install/rplidar_ros/share/rplidar_ros/package.xml

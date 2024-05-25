@@ -1,0 +1,6 @@
+{
+  "package_name": "my_package",
+  "non_idl_tuples": [
+    "/Users/howardkang/auto_car/src/my_package:msg/Yolov8Inference.msg"
+  ]
+}
