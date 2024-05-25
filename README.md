@@ -72,15 +72,15 @@ In that same folder:
 
 4. Click on the 2D goal pose:
 
-    ![Alt Text](image_url)
+    ![Alt Text](https://raw.githubusercontent.com/HowardKang00/Autonomous-Driving-Object-Detection-using-Computer-Vision/main/img1.png)
 
 5. Pick a point within the map that is free of space and then click on that point. Drag it to the desired direction of the robot facing:
 
-    ![Alt Text](image_url)
+    ![Alt Text](https://raw.githubusercontent.com/HowardKang00/Autonomous-Driving-Object-Detection-using-Computer-Vision/main/img2.png)
 
 6. The robot will start navigating. You can view it in Gazebo as well:
 
-    ![Alt Text](image_url)
+    ![Alt Text](https://raw.githubusercontent.com/HowardKang00/Autonomous-Driving-Object-Detection-using-Computer-Vision/main/img3.png)
 
 
 ## Acknowledgements
